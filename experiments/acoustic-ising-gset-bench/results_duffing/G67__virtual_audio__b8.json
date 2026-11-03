@@ -1,0 +1,20 @@
+{
+  "instance": "G67",
+  "n_spins": 10000,
+  "n_edges": 20000,
+  "bks": 6950.0,
+  "solver": "virtual_audio",
+  "batch_size": 8,
+  "n_steps": 100,
+  "best_cut": 6418.0,
+  "mean_cut": 6396.25,
+  "best_energy": -12978.0,
+  "bks_percent": 92.34532374100719,
+  "seconds": 4.24976339999921,
+  "peak_rss_mib": 110.5546875,
+  "audit_passed": true,
+  "extra_info": {
+    "frame_samples": 96000,
+    "n_guard_each_side": 240
+  }
+}

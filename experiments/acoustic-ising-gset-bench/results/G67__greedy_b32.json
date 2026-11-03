@@ -1,0 +1,22 @@
+{
+  "instance": "G67",
+  "n_spins": 10000,
+  "n_edges": 20000,
+  "weights": "+/-1",
+  "topology": "toroidal_grid_spinglass",
+  "bks": 6950.0,
+  "solver": "greedy_b32",
+  "batch_size": 32,
+  "n_steps": 2057,
+  "best_cut": 5226.0,
+  "mean_cut": 5141.0625,
+  "best_energy": -10594.0,
+  "bks_ratio": 0.7519424460431655,
+  "bks_percent": 75.19424460431655,
+  "seconds": 1.8392911999999342,
+  "peak_rss_mib": 73.7265625,
+  "solver_rss_delta_mib": 0.0,
+  "matrix_storage_kib": 585.94140625,
+  "raw_file_audit_passed": true,
+  "extra_hw": {}
+}

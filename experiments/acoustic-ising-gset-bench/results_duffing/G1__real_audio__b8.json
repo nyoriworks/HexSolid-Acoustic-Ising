@@ -1,0 +1,24 @@
+{
+  "instance": "G1",
+  "n_spins": 800,
+  "n_edges": 19176,
+  "bks": 11624.0,
+  "solver": "real_audio",
+  "batch_size": 8,
+  "n_steps": 100,
+  "best_cut": 11442.0,
+  "mean_cut": 11423.375,
+  "best_energy": -3708.0,
+  "bks_percent": 98.43427391603579,
+  "seconds": 519.7935629000003,
+  "peak_rss_mib": 82.3828125,
+  "audit_passed": true,
+  "extra_info": {
+    "frame_samples": 12000,
+    "n_guard_each_side": 160,
+    "rx_peak": 0.32230237126350403,
+    "cal_phase_std_deg": 0.4428997151011649,
+    "cal_snr_median_db": 29.952421674709136,
+    "out_channel": "l"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "instance": "G81",
+  "n_spins": 20000,
+  "n_edges": 40000,
+  "weights": "+/-1",
+  "topology": "toroidal_grid_spinglass",
+  "bks": 14060.0,
+  "solver": "sa",
+  "batch_size": 1,
+  "n_steps": 90,
+  "best_cut": 13712.0,
+  "mean_cut": 13712.0,
+  "best_energy": -27390.0,
+  "bks_percent": 97.524893314367,
+  "seconds": 0.0516853999979503,
+  "peak_rss_mib": 77.234375,
+  "audit_passed": true,
+  "extra_info": {
+    "frame_samples": 192000,
+    "n_steps": 90
+  }
+}

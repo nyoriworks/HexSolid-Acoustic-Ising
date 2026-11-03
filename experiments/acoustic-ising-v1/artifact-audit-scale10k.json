@@ -1,0 +1,179 @@
+{
+  "passed": true,
+  "total_checks": 35,
+  "passed_checks": 35,
+  "seconds": 0.9733814169885591,
+  "checks": [
+    {
+      "name": "external unchanged: HANDOVER_ACOUSTIC_ISING_CURRENT.md (HexSolid)",
+      "passed": true
+    },
+    {
+      "name": "external unchanged: HANDOVER_THIS_CHAT_CURRENT.md (HexSolid)",
+      "passed": true
+    },
+    {
+      "name": "external unchanged: HANDOVER_TENSOR_ALGORITHMS.md (HexSolid)",
+      "passed": true
+    },
+    {
+      "name": "external unchanged: graph.json (tensor-maxcut-qaoa-v1)",
+      "passed": true
+    },
+    {
+      "name": "external unchanged: oracle.json (tensor-maxcut-qaoa-v1)",
+      "passed": true
+    },
+    {
+      "name": "external unchanged: couplings.npy (tensor-sk-qaoa-v1)",
+      "passed": true
+    },
+    {
+      "name": "external unchanged: oracle.json (tensor-sk-qaoa-v1)",
+      "passed": true
+    },
+    {
+      "name": "v1 frozen core sources unchanged",
+      "passed": true
+    },
+    {
+      "name": "v1 preparation artifacts unchanged",
+      "passed": true
+    },
+    {
+      "name": "maxcut2000 independent edge-loop witness (OIM & Greedy)",
+      "passed": true,
+      "oim_cut": 12003.0,
+      "greedy_cut": 11624.0
+    },
+    {
+      "name": "maxcut2000 trajectory stats consistency",
+      "passed": true
+    },
+    {
+      "name": "sk2000 O(N)-streamed SK witness (OIM & Greedy)",
+      "passed": true,
+      "oim_energy": -1429.3790591020377,
+      "greedy_energy": -1423.6013839424136
+    },
+    {
+      "name": "sk2000 trajectory stats consistency",
+      "passed": true
+    },
+    {
+      "name": "maxcut3000 independent edge-loop witness (OIM & Greedy)",
+      "passed": true,
+      "oim_cut": 17993.0,
+      "greedy_cut": 17450.0
+    },
+    {
+      "name": "maxcut3000 trajectory stats consistency",
+      "passed": true
+    },
+    {
+      "name": "sk3000 O(N)-streamed SK witness (OIM & Greedy)",
+      "passed": true,
+      "oim_energy": -2134.9543858244456,
+      "greedy_energy": -2128.350467855136
+    },
+    {
+      "name": "sk3000 trajectory stats consistency",
+      "passed": true
+    },
+    {
+      "name": "maxcut5000 independent edge-loop witness (OIM & Greedy)",
+      "passed": true,
+      "oim_cut": 29664.0,
+      "greedy_cut": 28837.0
+    },
+    {
+      "name": "maxcut5000 trajectory stats consistency",
+      "passed": true
+    },
+    {
+      "name": "sk5000 O(N)-streamed SK witness (OIM & Greedy)",
+      "passed": true,
+      "oim_energy": -3510.847827690021,
+      "greedy_energy": -3534.5273880467917
+    },
+    {
+      "name": "sk5000 trajectory stats consistency",
+      "passed": true
+    },
+    {
+      "name": "maxcut10000 independent edge-loop witness (OIM & Greedy)",
+      "passed": true,
+      "oim_cut": 59119.0,
+      "greedy_cut": 57423.0
+    },
+    {
+      "name": "maxcut10000 trajectory stats consistency",
+      "passed": true
+    },
+    {
+      "name": "sk10000 O(N)-streamed SK witness (OIM & Greedy)",
+      "passed": true,
+      "oim_energy": -7028.8981324417455,
+      "greedy_energy": -7071.42651159745
+    },
+    {
+      "name": "sk10000 trajectory stats consistency",
+      "passed": true
+    },
+    {
+      "name": "loopback_maxcut2000_comb harmonic-free comb validation (>=2-bin spacing)",
+      "passed": true,
+      "min_bin_gap": 2,
+      "bin_hz": 2.5
+    },
+    {
+      "name": "loopback_maxcut2000_comb independent witness score",
+      "passed": true,
+      "best_cut": 11910.0
+    },
+    {
+      "name": "loopback_sk2000_comb harmonic-free comb validation (>=2-bin spacing)",
+      "passed": true,
+      "min_bin_gap": 2,
+      "bin_hz": 2.5
+    },
+    {
+      "name": "loopback_sk2000_comb independent O(N)-streamed witness score",
+      "passed": true,
+      "best_energy": -1409.8821119359573
+    },
+    {
+      "name": "loopback_maxcut3000_comb harmonic-free comb validation (>=2-bin spacing)",
+      "passed": true,
+      "min_bin_gap": 2,
+      "bin_hz": 1.6666666666666667
+    },
+    {
+      "name": "loopback_maxcut3000_comb independent witness score",
+      "passed": true,
+      "best_cut": 17859.0
+    },
+    {
+      "name": "loopback_maxcut5000_comb harmonic-free comb validation (>=2-bin spacing)",
+      "passed": true,
+      "min_bin_gap": 2,
+      "bin_hz": 1.0
+    },
+    {
+      "name": "loopback_maxcut5000_comb independent witness score",
+      "passed": true,
+      "best_cut": 29534.0
+    },
+    {
+      "name": "loopback_maxcut10000_comb harmonic-free comb validation (>=2-bin spacing)",
+      "passed": true,
+      "min_bin_gap": 2,
+      "bin_hz": 0.5
+    },
+    {
+      "name": "loopback_maxcut10000_comb independent witness score",
+      "passed": true,
+      "best_cut": 58862.0
+    }
+  ]
+}

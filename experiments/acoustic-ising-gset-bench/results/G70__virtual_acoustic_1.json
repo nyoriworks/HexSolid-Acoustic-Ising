@@ -1,0 +1,26 @@
+{
+  "instance": "G70",
+  "n_spins": 10000,
+  "n_edges": 9999,
+  "weights": "+1",
+  "topology": "sparse_random",
+  "bks": 9591.0,
+  "solver": "virtual_acoustic_1",
+  "batch_size": 1,
+  "n_steps": 90,
+  "best_cut": 8945.0,
+  "mean_cut": 8945.0,
+  "best_energy": -7891.0,
+  "bks_ratio": 0.9326451881972683,
+  "bks_percent": 93.26451881972683,
+  "seconds": 0.5965035999997781,
+  "peak_rss_mib": 82.12109375,
+  "solver_rss_delta_mib": 9.79296875,
+  "matrix_storage_kib": 351.54296875,
+  "raw_file_audit_passed": true,
+  "extra_hw": {
+    "frame_samples": 96000,
+    "snr_db": 42.0,
+    "dt": 0.4425
+  }
+}

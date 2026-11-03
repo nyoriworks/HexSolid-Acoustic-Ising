@@ -1,0 +1,20 @@
+{
+  "instance": "G22",
+  "n_spins": 2000,
+  "n_edges": 19990,
+  "bks": 13359.0,
+  "solver": "virtual_audio",
+  "batch_size": 8,
+  "n_steps": 100,
+  "best_cut": 13108.0,
+  "mean_cut": 13050.25,
+  "best_energy": -6226.0,
+  "bks_percent": 98.12111685006363,
+  "seconds": 0.8922493999998551,
+  "peak_rss_mib": 82.3984375,
+  "audit_passed": true,
+  "extra_info": {
+    "frame_samples": 24000,
+    "n_guard_each_side": 160
+  }
+}

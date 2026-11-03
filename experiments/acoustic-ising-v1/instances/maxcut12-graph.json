@@ -1,0 +1,98 @@
+{
+  "vertices": 12,
+  "edges": [
+    {
+      "u": 0,
+      "v": 1,
+      "weight": 2
+    },
+    {
+      "u": 0,
+      "v": 7,
+      "weight": 4
+    },
+    {
+      "u": 0,
+      "v": 11,
+      "weight": 2
+    },
+    {
+      "u": 1,
+      "v": 2,
+      "weight": 2
+    },
+    {
+      "u": 2,
+      "v": 3,
+      "weight": 2
+    },
+    {
+      "u": 2,
+      "v": 8,
+      "weight": 4
+    },
+    {
+      "u": 3,
+      "v": 4,
+      "weight": 4
+    },
+    {
+      "u": 4,
+      "v": 5,
+      "weight": 3
+    },
+    {
+      "u": 4,
+      "v": 9,
+      "weight": 4
+    },
+    {
+      "u": 5,
+      "v": 6,
+      "weight": 4
+    },
+    {
+      "u": 5,
+      "v": 7,
+      "weight": 3
+    },
+    {
+      "u": 6,
+      "v": 7,
+      "weight": 2
+    },
+    {
+      "u": 6,
+      "v": 10,
+      "weight": 4
+    },
+    {
+      "u": 7,
+      "v": 8,
+      "weight": 2
+    },
+    {
+      "u": 8,
+      "v": 9,
+      "weight": 1
+    },
+    {
+      "u": 9,
+      "v": 10,
+      "weight": 4
+    },
+    {
+      "u": 9,
+      "v": 11,
+      "weight": 1
+    },
+    {
+      "u": 10,
+      "v": 11,
+      "weight": 3
+    }
+  ],
+  "q0_is_MSB": true,
+  "generator": "ring_plus_os_random_chords_weights_1_to_4",
+  "words_consumed": 36
+}

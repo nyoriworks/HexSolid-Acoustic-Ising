@@ -1,0 +1,20 @@
+{
+  "instance": "G11",
+  "n_spins": 800,
+  "n_edges": 1600,
+  "bks": 564.0,
+  "solver": "virtual_audio",
+  "batch_size": 8,
+  "n_steps": 100,
+  "best_cut": 526.0,
+  "mean_cut": 518.5,
+  "best_energy": -1018.0,
+  "bks_percent": 93.26241134751773,
+  "seconds": 0.43124560000069323,
+  "peak_rss_mib": 75.76953125,
+  "audit_passed": true,
+  "extra_info": {
+    "frame_samples": 12000,
+    "n_guard_each_side": 160
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "instance": "G14",
+  "n_spins": 800,
+  "n_edges": 4694,
+  "bks": 3064.0,
+  "solver": "virtual_audio",
+  "batch_size": 1,
+  "n_steps": 100,
+  "best_cut": 3012.0,
+  "mean_cut": 3012.0,
+  "best_energy": -1330.0,
+  "bks_percent": 98.30287206266318,
+  "seconds": 0.04302009999992151,
+  "peak_rss_mib": 72.015625,
+  "audit_passed": true,
+  "extra_info": {
+    "frame_samples": 12000,
+    "n_guard_each_side": 160
+  }
+}

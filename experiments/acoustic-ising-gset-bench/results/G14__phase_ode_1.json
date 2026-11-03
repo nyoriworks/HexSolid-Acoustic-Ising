@@ -1,0 +1,22 @@
+{
+  "instance": "G14",
+  "n_spins": 800,
+  "n_edges": 4694,
+  "weights": "+1",
+  "topology": "planar_skew",
+  "bks": 3064.0,
+  "solver": "phase_ode_1",
+  "batch_size": 1,
+  "n_steps": 110,
+  "best_cut": 2894.0,
+  "mean_cut": 2894.0,
+  "best_energy": -1094.0,
+  "bks_ratio": 0.9445169712793734,
+  "bks_percent": 94.45169712793734,
+  "seconds": 0.005582299998422968,
+  "peak_rss_mib": 70.984375,
+  "solver_rss_delta_mib": 0.22265625,
+  "matrix_storage_kib": 119.39453125,
+  "raw_file_audit_passed": true,
+  "extra_hw": {}
+}

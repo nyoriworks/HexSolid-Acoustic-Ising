@@ -1,0 +1,25 @@
+{
+  "case": "maxcut12",
+  "n_spins": 12,
+  "backend": "RealAcousticBackend(Musical12ToneMap)",
+  "output_gain": 0.04,
+  "batch_size": 2,
+  "n_steps": 45,
+  "dt": 0.25,
+  "seconds": 40.7298209999999,
+  "backend_calls": 46,
+  "last_latency_samples": 4473,
+  "last_latency_ms": 93.1875,
+  "best_energy": -31.0,
+  "mean_energy": -31.0,
+  "exact_ground_energy": -33.0,
+  "reached_exact_ground": false,
+  "ground_hits": 0,
+  "best_cut": 41.0,
+  "optimal_cut": 42.0,
+  "best_bitstring": "101010010010",
+  "energies": [
+    -31.0,
+    -31.0
+  ]
+}

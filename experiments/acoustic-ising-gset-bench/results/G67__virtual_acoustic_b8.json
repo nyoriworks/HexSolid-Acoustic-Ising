@@ -1,0 +1,25 @@
+{
+  "instance": "G67",
+  "n_spins": 10000,
+  "n_edges": 20000,
+  "weights": "+/-1",
+  "topology": "toroidal_grid_spinglass",
+  "bks": 6950.0,
+  "solver": "virtual_acoustic_b8",
+  "batch_size": 4,
+  "n_steps": 400,
+  "best_cut": 6596.0,
+  "mean_cut": 6573.0,
+  "best_energy": -13334.0,
+  "bks_ratio": 0.9490647482014388,
+  "bks_percent": 94.90647482014388,
+  "seconds": 8.73834480000005,
+  "peak_rss_mib": 95.41015625,
+  "solver_rss_delta_mib": 21.6875,
+  "matrix_storage_kib": 585.94140625,
+  "raw_file_audit_passed": true,
+  "extra_hw": {
+    "frame_samples": 96000,
+    "snr_db": 42.0
+  }
+}

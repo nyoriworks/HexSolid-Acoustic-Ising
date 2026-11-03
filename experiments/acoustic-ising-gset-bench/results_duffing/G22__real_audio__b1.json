@@ -1,0 +1,24 @@
+{
+  "instance": "G22",
+  "n_spins": 2000,
+  "n_edges": 19990,
+  "bks": 13359.0,
+  "solver": "real_audio",
+  "batch_size": 1,
+  "n_steps": 100,
+  "best_cut": 12994.0,
+  "mean_cut": 12994.0,
+  "best_energy": -5998.0,
+  "bks_percent": 97.26775956284153,
+  "seconds": 91.64240160000008,
+  "peak_rss_mib": 81.83984375,
+  "audit_passed": true,
+  "extra_info": {
+    "frame_samples": 24000,
+    "n_guard_each_side": 160,
+    "rx_peak": 0.328915536403656,
+    "cal_phase_std_deg": 0.8800029461300686,
+    "cal_snr_median_db": 34.09395621708441,
+    "out_channel": "l"
+  }
+}

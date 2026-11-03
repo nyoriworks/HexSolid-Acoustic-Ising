@@ -1,0 +1,167 @@
+{
+  "created_by": "prepare.py",
+  "python_version": "3.11.4 (v3.11.4:d2340ef257, Jun  6 2023, 19:15:51) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "numpy_version": "2.4.3",
+  "self_checks": {
+    "lyapunov_neg_grad_max_error": 2.9593390515891826e-09,
+    "noiseless_500tone_multipath_phasor_error": 1.6910413304902302e-15,
+    "aligned_500tone_crest_factor_uncompensated": 31.62277660168379,
+    "aligned_500tone_crest_factor_schroeder": 1.868954584396025,
+    "frequency_maps": [
+      {
+        "name": "Musical12ToneMap",
+        "n_spins": 12,
+        "sample_rate": 48000,
+        "frame_samples": 4800,
+        "bin_hz": 10.0,
+        "f_min_hz": 520.0,
+        "f_max_hz": 990.0,
+        "min_bin_gap": 3,
+        "strictly_increasing_bins": true,
+        "exact_bin_centers": true,
+        "second_harmonic_above_band": true,
+        "passed": true
+      },
+      {
+        "name": "TopOctaveCombMap",
+        "n_spins": 24,
+        "sample_rate": 48000,
+        "frame_samples": 4800,
+        "bin_hz": 10.0,
+        "f_min_hz": 10000.0,
+        "f_max_hz": 19430.0,
+        "min_bin_gap": 41,
+        "strictly_increasing_bins": true,
+        "exact_bin_centers": true,
+        "second_harmonic_above_band": true,
+        "passed": true
+      },
+      {
+        "name": "TopOctaveCombMap",
+        "n_spins": 100,
+        "sample_rate": 48000,
+        "frame_samples": 4800,
+        "bin_hz": 10.0,
+        "f_min_hz": 10000.0,
+        "f_max_hz": 19900.0,
+        "min_bin_gap": 10,
+        "strictly_increasing_bins": true,
+        "exact_bin_centers": true,
+        "second_harmonic_above_band": true,
+        "passed": true
+      },
+      {
+        "name": "TopOctaveCombMap",
+        "n_spins": 500,
+        "sample_rate": 48000,
+        "frame_samples": 4800,
+        "bin_hz": 10.0,
+        "f_min_hz": 10000.0,
+        "f_max_hz": 19980.0,
+        "min_bin_gap": 2,
+        "strictly_increasing_bins": true,
+        "exact_bin_centers": true,
+        "second_harmonic_above_band": true,
+        "passed": true
+      },
+      {
+        "name": "TopOctaveCombMap",
+        "n_spins": 1000,
+        "sample_rate": 48000,
+        "frame_samples": 9600,
+        "bin_hz": 5.0,
+        "f_min_hz": 10000.0,
+        "f_max_hz": 19990.0,
+        "min_bin_gap": 2,
+        "strictly_increasing_bins": true,
+        "exact_bin_centers": true,
+        "second_harmonic_above_band": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "external_reference_checks": {
+    "/Users/nyori/\u30a2\u30d5\u309a\u30ea\u958b\u767a/Gods Dice/HexSolid/HANDOVER_ACOUSTIC_ISING_CURRENT.md": {
+      "expected": "0ca7fed329454a60d61523146dcc290464b694d209b1bfbc0c90c490cd63289c",
+      "actual": "0ca7fed329454a60d61523146dcc290464b694d209b1bfbc0c90c490cd63289c",
+      "passed": true
+    },
+    "/Users/nyori/\u30a2\u30d5\u309a\u30ea\u958b\u767a/Gods Dice/HexSolid/HANDOVER_THIS_CHAT_CURRENT.md": {
+      "expected": "8a7ee6ffd74eae34407279c7e9bf9b22600487e35491ccbfbb40e3b031d6a792",
+      "actual": "8a7ee6ffd74eae34407279c7e9bf9b22600487e35491ccbfbb40e3b031d6a792",
+      "passed": true
+    },
+    "/Users/nyori/\u30a2\u30d5\u309a\u30ea\u958b\u767a/Gods Dice/HexSolid/HANDOVER_TENSOR_ALGORITHMS.md": {
+      "expected": "afa5b28cedc14d1a9e1a844f288e1e013d09c2840d004e77bc9906660b8cf4df",
+      "actual": "afa5b28cedc14d1a9e1a844f288e1e013d09c2840d004e77bc9906660b8cf4df",
+      "passed": true
+    },
+    "/Users/nyori/\u30a2\u30d5\u309a\u30ea\u958b\u767a/Gods Dice/HexSolid/experiments/tensor-maxcut-qaoa-v1/graph.json": {
+      "expected": "1e1f37e5a666620aecffc7efaf468b500460207f018e6e8486257a3e58d360c5",
+      "actual": "1e1f37e5a666620aecffc7efaf468b500460207f018e6e8486257a3e58d360c5",
+      "passed": true
+    },
+    "/Users/nyori/\u30a2\u30d5\u309a\u30ea\u958b\u767a/Gods Dice/HexSolid/experiments/tensor-maxcut-qaoa-v1/oracle.json": {
+      "expected": "4ad57e67bd9aaa9afd2c8e7978c2d9416f8fa1bd712df5a189d8a79de45d9f50",
+      "actual": "4ad57e67bd9aaa9afd2c8e7978c2d9416f8fa1bd712df5a189d8a79de45d9f50",
+      "passed": true
+    },
+    "/Users/nyori/\u30a2\u30d5\u309a\u30ea\u958b\u767a/Gods Dice/HexSolid/experiments/tensor-sk-qaoa-v1/couplings.npy": {
+      "expected": "d12ac3abe398ad922066a0c2635aebfb3f06cc90b51e9c4fe0985639c314b526",
+      "actual": "d12ac3abe398ad922066a0c2635aebfb3f06cc90b51e9c4fe0985639c314b526",
+      "passed": true
+    },
+    "/Users/nyori/\u30a2\u30d5\u309a\u30ea\u958b\u767a/Gods Dice/HexSolid/experiments/tensor-sk-qaoa-v1/oracle.json": {
+      "expected": "d9daef8a9d8bdb53ac0cb5cc1f0977802d18445319cc25fc9cf1a85bfe6e1e03",
+      "actual": "d9daef8a9d8bdb53ac0cb5cc1f0977802d18445319cc25fc9cf1a85bfe6e1e03",
+      "passed": true
+    }
+  },
+  "n12_oracles": {
+    "maxcut12": {
+      "optimal_cut": 42.0,
+      "ground_energy": -33.0,
+      "degeneracy": 10
+    },
+    "sk12": {
+      "ground_energy": -7.388410385249091,
+      "degeneracy": 2
+    }
+  },
+  "artifacts": {
+    "instances/maxcut100-draw.bin": "42fc0f4e77dd3acc19cc9219779f1d140a2f15408a1f493798585e7948c0fa5e",
+    "instances/maxcut100-graph.json": "642bfef5659be649084dd87bb4bec2ef1c5111741dec5d38c4fa8b7879bbeca2",
+    "instances/maxcut1000-draw.bin": "6d6ab7f5c0e08d06f759e6a63b39e8edd2d2106c591cebf712b95ecbe7c6d75e",
+    "instances/maxcut1000-graph.json": "0f1ae3ce96917f12c97e593b3455088a234aab8cb0d2674a8a5423559d55ab5a",
+    "instances/maxcut12-draw.bin": "aa18892ca1eec637a9a92d2b6d15fc692af770426495d7147d31991869703489",
+    "instances/maxcut12-graph.json": "6c6478e35c0a8ef2407b348acd9d7b796401735a79c7c6513ae28891db026e5d",
+    "instances/maxcut12-oracle.json": "abfbaa3e8784851f3144d46c362bbaa9c4f847da1205f377963b829d4e3b355e",
+    "instances/maxcut500-draw.bin": "d1f4b5223c99411167f85c2eee5428b236851a3b1b581d6180c5b765d2d83db8",
+    "instances/maxcut500-graph.json": "9b15690c5d67929ff8b1181be108a0985a942ed0a4c3a6939125504a136df3c0",
+    "instances/oim-master-seed.bin": "52cda2363aa169f119b69ff1a8e901a0c2da10027e0457d98ea09ce2c4aa2cce",
+    "instances/sk100-couplings.npy": "f4831d78780badb5276b8187e128cf40fb2afea8ad85caf2938ee0a171468372",
+    "instances/sk100-draw.bin": "97a7db805375de9be54c2842c716aff0e9c100a2a10bac7e849ed9096cdb1178",
+    "instances/sk1000-couplings.npy": "c478cb1056ababbfeabf3168d7226bc539ab7b2af6c15424cc45d5c2a7af2a91",
+    "instances/sk1000-draw.bin": "740563c999e6a6185171c24669a45d6cb20c699d7e66904dda2bdd110a30f630",
+    "instances/sk12-couplings.npy": "f7cf0e35c322680552940eb97ad341a4b22425de7add8241c21f5024d677a269",
+    "instances/sk12-draw.bin": "554e1c87cb54af76662c8d4b2148e58b35959b12686a9732db0e02f1b4226092",
+    "instances/sk12-oracle.json": "027b174624ed9f461c8f68052258ab3f0edb24dc15a801b8600d6221755694fe",
+    "instances/sk500-couplings.npy": "508b8936762bd280f7e53dc4d1cbbb942a6767fe05c86581c0b5ad298b7fbf07",
+    "instances/sk500-draw.bin": "6cebac4a32855a8c75e49ac8efdf2cddd6641b0bd716ab6d13dd70f99c9325bd"
+  },
+  "source_hashes": {
+    "PROTOCOL.md": "53cd00796fe10d076d80aba488f6ac59b2956583929fcf6c46cd420e8ca47f0f",
+    "frequency_map.py": "3f5e61e87f4c91af6289f59ca3e43c15b909f66818f379cd6487eed5b455dc96",
+    "backends/__init__.py": "bb2da629c70c5a280b26477ae09e25baa4d2296891ac3fede9bbaf7268359029",
+    "backends/base.py": "2e52916d341eb740869818bbf194c21a85be06686b003e377a9214f9d87b57b2",
+    "backends/ode_backend.py": "ba0a7b4bf0bbef824e7a573ed8d5ddb6168f82e769b6f61c55660948b164132f",
+    "backends/audio_loopback.py": "50a83099d21e132a3f074a247e0ceaad932da698235ffa3d88ba32dfc71e661d",
+    "backends/real_acoustic.py": "2677ec78a0c77addf3d6f89590de0be7b8b105198c4bc7ef4ed7affdbdb45205",
+    "problem.py": "4786ba3bf344b488ada7567496063b7587f05af2e01150d8fa86118a310699e1",
+    "schedule.py": "4512158257769c217dad7d06d695b13efdcc00d021d1fb48a49b885baf773423",
+    "solver.py": "91020757f6ee55d826c5ba2e90975e9350e9cb99abdc8a940d9894a87612a0dc",
+    "prepare.py": "70d2596b28eb2457b42836d02cc0b192f9af6faf6fd356ff8883600cffcc4b55",
+    "run.py": "b36dec2f4e561e0428102f04b619a77fd270b63b5cceffa40cdadd9523829846"
+  }
+}

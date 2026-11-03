@@ -1,0 +1,22 @@
+{
+  "instance": "G55",
+  "n_spins": 5000,
+  "n_edges": 12498,
+  "weights": "+1",
+  "topology": "sparse_random",
+  "bks": 10299.0,
+  "solver": "phase_ode_1",
+  "batch_size": 1,
+  "n_steps": 90,
+  "best_cut": 9747.0,
+  "mean_cut": 9747.0,
+  "best_energy": -6996.0,
+  "bks_ratio": 0.9464025633556656,
+  "bks_percent": 94.64025633556656,
+  "seconds": 0.01842469999974128,
+  "peak_rss_mib": 72.33984375,
+  "solver_rss_delta_mib": 0.0,
+  "matrix_storage_kib": 351.51953125,
+  "raw_file_audit_passed": true,
+  "extra_hw": {}
+}

@@ -1,0 +1,24 @@
+{
+  "instance": "G55",
+  "n_spins": 5000,
+  "n_edges": 12498,
+  "bks": 10299.0,
+  "solver": "real_audio",
+  "batch_size": 1,
+  "n_steps": 100,
+  "best_cut": 9908.0,
+  "mean_cut": 9908.0,
+  "best_energy": -7318.0,
+  "bks_percent": 96.20351490435965,
+  "seconds": 142.86817690000134,
+  "peak_rss_mib": 83.28515625,
+  "audit_passed": true,
+  "extra_info": {
+    "frame_samples": 48000,
+    "n_guard_each_side": 160,
+    "rx_peak": 0.32564786076545715,
+    "cal_phase_std_deg": 1.3358370808245326,
+    "cal_snr_median_db": 32.00751105411079,
+    "out_channel": "l"
+  }
+}

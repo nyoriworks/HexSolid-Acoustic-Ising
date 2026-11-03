@@ -1,0 +1,20 @@
+{
+  "instance": "G55",
+  "n_spins": 5000,
+  "n_edges": 12498,
+  "bks": 10299.0,
+  "solver": "virtual_audio",
+  "batch_size": 1,
+  "n_steps": 100,
+  "best_cut": 9910.0,
+  "mean_cut": 9910.0,
+  "best_energy": -7322.0,
+  "bks_percent": 96.22293426546267,
+  "seconds": 0.310038199999326,
+  "peak_rss_mib": 76.453125,
+  "audit_passed": true,
+  "extra_info": {
+    "frame_samples": 48000,
+    "n_guard_each_side": 160
+  }
+}

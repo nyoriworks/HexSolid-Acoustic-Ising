@@ -1,0 +1,1180 @@
+{
+  "timestamp": "2026-11-03T16:40:33+0900",
+  "total_instances": 23,
+  "total_bench_seconds": 12.55193429999781,
+  "instances": [
+    {
+      "qid": 3506,
+      "name": "QPLIB_3506",
+      "n_vars": 496,
+      "quad_nz": 960,
+      "density_pct": 0.7820136852394917,
+      "sense": "maximize",
+      "opt_obj": 478.0,
+      "mittelmann_times": {
+        "BARON": 80,
+        "SCIP": "t",
+        "MCSPARSE": 407,
+        "QUBOWL": 1,
+        "BIQBIN": "t",
+        "SHOT": 274,
+        "COPT": 251,
+        "QUPLANE": 6
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 424.0,
+          "opt_ratio_pct": 88.70292887029288,
+          "seconds": 0.003689700002723839,
+          "peak_rss_mib": 47.0078125
+        },
+        "dsb_b1": {
+          "objective": 372.0,
+          "opt_ratio_pct": 77.82426778242679,
+          "seconds": 0.003292400000646012,
+          "peak_rss_mib": 47.015625
+        },
+        "sa_b1": {
+          "objective": 470.0,
+          "opt_ratio_pct": 98.32635983263597,
+          "seconds": 0.2714979000011226,
+          "peak_rss_mib": 47.1015625
+        },
+        "duffing_b32": {
+          "objective": 446.0,
+          "opt_ratio_pct": 93.30543933054393,
+          "seconds": 0.060098599999037106,
+          "peak_rss_mib": 47.953125
+        },
+        "dsb_b32": {
+          "objective": 394.0,
+          "opt_ratio_pct": 82.42677824267783,
+          "seconds": 0.050781000001734355,
+          "peak_rss_mib": 47.953125
+        }
+      }
+    },
+    {
+      "qid": 3565,
+      "name": "QPLIB_3565",
+      "n_vars": 276,
+      "quad_nz": 528,
+      "density_pct": 1.391304347826087,
+      "sense": "maximize",
+      "opt_obj": 282.0,
+      "mittelmann_times": {
+        "BARON": 3,
+        "SCIP": 42,
+        "MCSPARSE": 13,
+        "QUBOWL": 1,
+        "BIQBIN": 12,
+        "SHOT": 2,
+        "COPT": 1,
+        "QUPLANE": 2
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 268.0,
+          "opt_ratio_pct": 95.0354609929078,
+          "seconds": 0.0027737000018532854,
+          "peak_rss_mib": 47.953125
+        },
+        "dsb_b1": {
+          "objective": 232.0,
+          "opt_ratio_pct": 82.26950354609929,
+          "seconds": 0.0025260000002162997,
+          "peak_rss_mib": 47.953125
+        },
+        "sa_b1": {
+          "objective": 278.0,
+          "opt_ratio_pct": 98.58156028368793,
+          "seconds": 0.15271719999873312,
+          "peak_rss_mib": 47.953125
+        },
+        "duffing_b32": {
+          "objective": 266.0,
+          "opt_ratio_pct": 94.32624113475178,
+          "seconds": 0.0338804999992135,
+          "peak_rss_mib": 47.953125
+        },
+        "dsb_b32": {
+          "objective": 240.0,
+          "opt_ratio_pct": 85.1063829787234,
+          "seconds": 0.027184400001715403,
+          "peak_rss_mib": 47.953125
+        }
+      }
+    },
+    {
+      "qid": 3642,
+      "name": "QPLIB_3642",
+      "n_vars": 1035,
+      "quad_nz": 2024,
+      "density_pct": 0.37825059101654845,
+      "sense": "maximize",
+      "opt_obj": 1034.0,
+      "mittelmann_times": {
+        "BARON": "t",
+        "SCIP": "t",
+        "MCSPARSE": "t",
+        "QUBOWL": 4,
+        "BIQBIN": "f",
+        "SHOT": "t",
+        "COPT": "t",
+        "QUPLANE": 214
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 946.0,
+          "opt_ratio_pct": 91.48936170212765,
+          "seconds": 0.005944399999862071,
+          "peak_rss_mib": 48.30078125
+        },
+        "dsb_b1": {
+          "objective": 840.0,
+          "opt_ratio_pct": 81.23791102514507,
+          "seconds": 0.005386700002418365,
+          "peak_rss_mib": 48.30859375
+        },
+        "sa_b1": {
+          "objective": 1022.0,
+          "opt_ratio_pct": 98.8394584139265,
+          "seconds": 0.5949405999999726,
+          "peak_rss_mib": 48.30859375
+        },
+        "duffing_b32": {
+          "objective": 940.0,
+          "opt_ratio_pct": 90.9090909090909,
+          "seconds": 0.12747630000012578,
+          "peak_rss_mib": 50.08203125
+        },
+        "dsb_b32": {
+          "objective": 836.0,
+          "opt_ratio_pct": 80.85106382978722,
+          "seconds": 0.11971140000241576,
+          "peak_rss_mib": 50.08203125
+        }
+      }
+    },
+    {
+      "qid": 3650,
+      "name": "QPLIB_3650",
+      "n_vars": 946,
+      "quad_nz": 1848,
+      "density_pct": 0.4134366925064599,
+      "sense": "maximize",
+      "opt_obj": 922.0,
+      "mittelmann_times": {
+        "BARON": "t",
+        "SCIP": "t",
+        "MCSPARSE": "t",
+        "QUBOWL": 2,
+        "BIQBIN": "t",
+        "SHOT": "t",
+        "COPT": "t",
+        "QUPLANE": 92
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 820.0,
+          "opt_ratio_pct": 88.93709327548807,
+          "seconds": 0.005249500001809793,
+          "peak_rss_mib": 50.08203125
+        },
+        "dsb_b1": {
+          "objective": 716.0,
+          "opt_ratio_pct": 77.65726681127983,
+          "seconds": 0.005113399998663226,
+          "peak_rss_mib": 50.08203125
+        },
+        "sa_b1": {
+          "objective": 916.0,
+          "opt_ratio_pct": 99.34924078091106,
+          "seconds": 0.6076921999992919,
+          "peak_rss_mib": 50.08203125
+        },
+        "duffing_b32": {
+          "objective": 844.0,
+          "opt_ratio_pct": 91.54013015184381,
+          "seconds": 0.11683169999741949,
+          "peak_rss_mib": 50.375
+        },
+        "dsb_b32": {
+          "objective": 740.0,
+          "opt_ratio_pct": 80.26030368763557,
+          "seconds": 0.10526920000120299,
+          "peak_rss_mib": 50.375
+        }
+      }
+    },
+    {
+      "qid": 3693,
+      "name": "QPLIB_3693",
+      "n_vars": 1128,
+      "quad_nz": 2208,
+      "density_pct": 0.34737299174989145,
+      "sense": "maximize",
+      "opt_obj": 1154.0,
+      "mittelmann_times": {
+        "BARON": "t",
+        "SCIP": "t",
+        "MCSPARSE": "t",
+        "QUBOWL": 10,
+        "BIQBIN": "f",
+        "SHOT": "t",
+        "COPT": "t",
+        "QUPLANE": 747
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 1046.0,
+          "opt_ratio_pct": 90.64124783362219,
+          "seconds": 0.0060868000000482425,
+          "peak_rss_mib": 50.375
+        },
+        "dsb_b1": {
+          "objective": 912.0,
+          "opt_ratio_pct": 79.02946273830156,
+          "seconds": 0.006176799997774651,
+          "peak_rss_mib": 50.375
+        },
+        "sa_b1": {
+          "objective": 1148.0,
+          "opt_ratio_pct": 99.48006932409012,
+          "seconds": 0.714636500000779,
+          "peak_rss_mib": 50.375
+        },
+        "duffing_b32": {
+          "objective": 1056.0,
+          "opt_ratio_pct": 91.50779896013866,
+          "seconds": 0.1507811000010406,
+          "peak_rss_mib": 50.89453125
+        },
+        "dsb_b32": {
+          "objective": 924.0,
+          "opt_ratio_pct": 80.06932409012131,
+          "seconds": 0.15354220000153873,
+          "peak_rss_mib": 50.89453125
+        }
+      }
+    },
+    {
+      "qid": 3705,
+      "name": "QPLIB_3705",
+      "n_vars": 378,
+      "quad_nz": 728,
+      "density_pct": 1.0217113665389528,
+      "sense": "maximize",
+      "opt_obj": 384.0,
+      "mittelmann_times": {
+        "BARON": 5,
+        "SCIP": 68,
+        "MCSPARSE": 20,
+        "QUBOWL": 1,
+        "BIQBIN": 232,
+        "SHOT": 4,
+        "COPT": 1,
+        "QUPLANE": 3
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 346.0,
+          "opt_ratio_pct": 90.10416666666666,
+          "seconds": 0.0033903000003192574,
+          "peak_rss_mib": 50.89453125
+        },
+        "dsb_b1": {
+          "objective": 296.0,
+          "opt_ratio_pct": 77.08333333333334,
+          "seconds": 0.0026293000009900425,
+          "peak_rss_mib": 50.89453125
+        },
+        "sa_b1": {
+          "objective": 380.0,
+          "opt_ratio_pct": 98.95833333333334,
+          "seconds": 0.22053589999995893,
+          "peak_rss_mib": 50.89453125
+        },
+        "duffing_b32": {
+          "objective": 354.0,
+          "opt_ratio_pct": 92.1875,
+          "seconds": 0.04981269999916549,
+          "peak_rss_mib": 50.89453125
+        },
+        "dsb_b32": {
+          "objective": 318.0,
+          "opt_ratio_pct": 82.8125,
+          "seconds": 0.04096389999904204,
+          "peak_rss_mib": 50.89453125
+        }
+      }
+    },
+    {
+      "qid": 3706,
+      "name": "QPLIB_3706",
+      "n_vars": 703,
+      "quad_nz": 1368,
+      "density_pct": 0.5544005544005544,
+      "sense": "maximize",
+      "opt_obj": 682.0,
+      "mittelmann_times": {
+        "BARON": 833,
+        "SCIP": "t",
+        "MCSPARSE": 2418,
+        "QUBOWL": 1,
+        "BIQBIN": "t",
+        "SHOT": "t",
+        "COPT": "t",
+        "QUPLANE": 16
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 612.0,
+          "opt_ratio_pct": 89.73607038123167,
+          "seconds": 0.004569400000036694,
+          "peak_rss_mib": 50.89453125
+        },
+        "dsb_b1": {
+          "objective": 544.0,
+          "opt_ratio_pct": 79.76539589442815,
+          "seconds": 0.00430419999975129,
+          "peak_rss_mib": 50.89453125
+        },
+        "sa_b1": {
+          "objective": 674.0,
+          "opt_ratio_pct": 98.82697947214076,
+          "seconds": 0.45530629999848315,
+          "peak_rss_mib": 50.89453125
+        },
+        "duffing_b32": {
+          "objective": 622.0,
+          "opt_ratio_pct": 91.20234604105572,
+          "seconds": 0.09387860000060755,
+          "peak_rss_mib": 50.89453125
+        },
+        "dsb_b32": {
+          "objective": 548.0,
+          "opt_ratio_pct": 80.35190615835776,
+          "seconds": 0.09028059999764082,
+          "peak_rss_mib": 50.89453125
+        }
+      }
+    },
+    {
+      "qid": 3738,
+      "name": "QPLIB_3738",
+      "n_vars": 435,
+      "quad_nz": 840,
+      "density_pct": 0.8898776418242491,
+      "sense": "maximize",
+      "opt_obj": 422.0,
+      "mittelmann_times": {
+        "BARON": 84,
+        "SCIP": 2905,
+        "MCSPARSE": 137,
+        "QUBOWL": 1,
+        "BIQBIN": "t",
+        "SHOT": 49,
+        "COPT": 1,
+        "QUPLANE": 8
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 388.0,
+          "opt_ratio_pct": 91.9431279620853,
+          "seconds": 0.0034435999987181276,
+          "peak_rss_mib": 50.89453125
+        },
+        "dsb_b1": {
+          "objective": 320.0,
+          "opt_ratio_pct": 75.82938388625593,
+          "seconds": 0.0030143000003590714,
+          "peak_rss_mib": 50.89453125
+        },
+        "sa_b1": {
+          "objective": 416.0,
+          "opt_ratio_pct": 98.5781990521327,
+          "seconds": 0.2774141000008967,
+          "peak_rss_mib": 50.89453125
+        },
+        "duffing_b32": {
+          "objective": 394.0,
+          "opt_ratio_pct": 93.36492890995261,
+          "seconds": 0.058463400000619004,
+          "peak_rss_mib": 50.89453125
+        },
+        "dsb_b32": {
+          "objective": 350.0,
+          "opt_ratio_pct": 82.93838862559242,
+          "seconds": 0.048335100000258535,
+          "peak_rss_mib": 50.89453125
+        }
+      }
+    },
+    {
+      "qid": 3745,
+      "name": "QPLIB_3745",
+      "n_vars": 325,
+      "quad_nz": 624,
+      "density_pct": 1.1851851851851851,
+      "sense": "maximize",
+      "opt_obj": 334.0,
+      "mittelmann_times": {
+        "BARON": 29,
+        "SCIP": 584,
+        "MCSPARSE": 55,
+        "QUBOWL": 1,
+        "BIQBIN": "t",
+        "SHOT": 10,
+        "COPT": 28,
+        "QUPLANE": 2
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 314.0,
+          "opt_ratio_pct": 94.01197604790418,
+          "seconds": 0.003277600000728853,
+          "peak_rss_mib": 50.89453125
+        },
+        "dsb_b1": {
+          "objective": 268.0,
+          "opt_ratio_pct": 80.23952095808383,
+          "seconds": 0.002566099999967264,
+          "peak_rss_mib": 50.89453125
+        },
+        "sa_b1": {
+          "objective": 330.0,
+          "opt_ratio_pct": 98.80239520958084,
+          "seconds": 0.17319359999964945,
+          "peak_rss_mib": 50.89453125
+        },
+        "duffing_b32": {
+          "objective": 318.0,
+          "opt_ratio_pct": 95.20958083832335,
+          "seconds": 0.045257499998115236,
+          "peak_rss_mib": 50.89453125
+        },
+        "dsb_b32": {
+          "objective": 286.0,
+          "opt_ratio_pct": 85.62874251497006,
+          "seconds": 0.03715580000061891,
+          "peak_rss_mib": 50.89453125
+        }
+      }
+    },
+    {
+      "qid": 3822,
+      "name": "QPLIB_3822",
+      "n_vars": 861,
+      "quad_nz": 1680,
+      "density_pct": 0.45377197958026094,
+      "sense": "maximize",
+      "opt_obj": 850.0,
+      "mittelmann_times": {
+        "BARON": "t",
+        "SCIP": "t",
+        "MCSPARSE": "t",
+        "QUBOWL": 1,
+        "BIQBIN": "t",
+        "SHOT": "t",
+        "COPT": "t",
+        "QUPLANE": 51
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 768.0,
+          "opt_ratio_pct": 90.3529411764706,
+          "seconds": 0.006594999998924322,
+          "peak_rss_mib": 50.89453125
+        },
+        "dsb_b1": {
+          "objective": 670.0,
+          "opt_ratio_pct": 78.82352941176471,
+          "seconds": 0.004713999998784857,
+          "peak_rss_mib": 50.89453125
+        },
+        "sa_b1": {
+          "objective": 838.0,
+          "opt_ratio_pct": 98.58823529411764,
+          "seconds": 0.5368741000020236,
+          "peak_rss_mib": 50.89453125
+        },
+        "duffing_b32": {
+          "objective": 794.0,
+          "opt_ratio_pct": 93.41176470588235,
+          "seconds": 0.11465510000198265,
+          "peak_rss_mib": 50.89453125
+        },
+        "dsb_b32": {
+          "objective": 688.0,
+          "opt_ratio_pct": 80.94117647058823,
+          "seconds": 0.11386659999698168,
+          "peak_rss_mib": 50.89453125
+        }
+      }
+    },
+    {
+      "qid": 3832,
+      "name": "QPLIB_3832",
+      "n_vars": 561,
+      "quad_nz": 1088,
+      "density_pct": 0.6926406926406926,
+      "sense": "maximize",
+      "opt_obj": 554.0,
+      "mittelmann_times": {
+        "BARON": 169,
+        "SCIP": "t",
+        "MCSPARSE": 465,
+        "QUBOWL": 1,
+        "BIQBIN": "t",
+        "SHOT": 368,
+        "COPT": 2,
+        "QUPLANE": 8
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 504.0,
+          "opt_ratio_pct": 90.97472924187726,
+          "seconds": 0.004035000001749722,
+          "peak_rss_mib": 50.89453125
+        },
+        "dsb_b1": {
+          "objective": 412.0,
+          "opt_ratio_pct": 74.36823104693141,
+          "seconds": 0.004682700000557816,
+          "peak_rss_mib": 50.89453125
+        },
+        "sa_b1": {
+          "objective": 550.0,
+          "opt_ratio_pct": 99.27797833935018,
+          "seconds": 0.3626493000010669,
+          "peak_rss_mib": 50.89453125
+        },
+        "duffing_b32": {
+          "objective": 512.0,
+          "opt_ratio_pct": 92.4187725631769,
+          "seconds": 0.07775540000147885,
+          "peak_rss_mib": 50.89453125
+        },
+        "dsb_b32": {
+          "objective": 468.0,
+          "opt_ratio_pct": 84.47653429602889,
+          "seconds": 0.06509419999929378,
+          "peak_rss_mib": 50.89453125
+        }
+      }
+    },
+    {
+      "qid": 3838,
+      "name": "QPLIB_3838",
+      "n_vars": 780,
+      "quad_nz": 1520,
+      "density_pct": 0.5003126954346466,
+      "sense": "maximize",
+      "opt_obj": 746.0,
+      "mittelmann_times": {
+        "BARON": "t",
+        "SCIP": "t",
+        "MCSPARSE": "t",
+        "QUBOWL": 1,
+        "BIQBIN": "t",
+        "SHOT": "t",
+        "COPT": "t",
+        "QUPLANE": 25
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 662.0,
+          "opt_ratio_pct": 88.73994638069705,
+          "seconds": 0.005261300000711344,
+          "peak_rss_mib": 50.89453125
+        },
+        "dsb_b1": {
+          "objective": 604.0,
+          "opt_ratio_pct": 80.9651474530831,
+          "seconds": 0.005796899997221772,
+          "peak_rss_mib": 50.89453125
+        },
+        "sa_b1": {
+          "objective": 736.0,
+          "opt_ratio_pct": 98.65951742627345,
+          "seconds": 0.5017184000025736,
+          "peak_rss_mib": 50.89453125
+        },
+        "duffing_b32": {
+          "objective": 682.0,
+          "opt_ratio_pct": 91.42091152815014,
+          "seconds": 0.10332030000063241,
+          "peak_rss_mib": 50.89453125
+        },
+        "dsb_b32": {
+          "objective": 610.0,
+          "opt_ratio_pct": 81.76943699731903,
+          "seconds": 0.09518490000118618,
+          "peak_rss_mib": 50.89453125
+        }
+      }
+    },
+    {
+      "qid": 3850,
+      "name": "QPLIB_3850",
+      "n_vars": 1225,
+      "quad_nz": 2400,
+      "density_pct": 0.3201280512204882,
+      "sense": "maximize",
+      "opt_obj": 1198.0,
+      "mittelmann_times": {
+        "BARON": "t",
+        "SCIP": "t",
+        "MCSPARSE": "t",
+        "QUBOWL": 24,
+        "BIQBIN": "f",
+        "SHOT": "t",
+        "COPT": "t",
+        "QUPLANE": 1358
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 1100.0,
+          "opt_ratio_pct": 91.81969949916528,
+          "seconds": 0.007873599999584258,
+          "peak_rss_mib": 50.89453125
+        },
+        "dsb_b1": {
+          "objective": 954.0,
+          "opt_ratio_pct": 79.63272120200334,
+          "seconds": 0.006619499999942491,
+          "peak_rss_mib": 50.89453125
+        },
+        "sa_b1": {
+          "objective": 1180.0,
+          "opt_ratio_pct": 98.49749582637729,
+          "seconds": 0.907183300001634,
+          "peak_rss_mib": 50.89453125
+        },
+        "duffing_b32": {
+          "objective": 1098.0,
+          "opt_ratio_pct": 91.65275459098497,
+          "seconds": 0.17369410000173957,
+          "peak_rss_mib": 51.265625
+        },
+        "dsb_b32": {
+          "objective": 958.0,
+          "opt_ratio_pct": 79.96661101836395,
+          "seconds": 0.20978189999732422,
+          "peak_rss_mib": 51.265625
+        }
+      }
+    },
+    {
+      "qid": 3852,
+      "name": "QPLIB_3852",
+      "n_vars": 231,
+      "quad_nz": 440,
+      "density_pct": 1.6563146997929608,
+      "sense": "maximize",
+      "opt_obj": 234.0,
+      "mittelmann_times": {
+        "BARON": 2,
+        "SCIP": 24,
+        "MCSPARSE": 36,
+        "QUBOWL": 1,
+        "BIQBIN": 411,
+        "SHOT": 2,
+        "COPT": 6,
+        "QUPLANE": 2
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 214.0,
+          "opt_ratio_pct": 91.45299145299145,
+          "seconds": 0.0033976999984588474,
+          "peak_rss_mib": 51.265625
+        },
+        "dsb_b1": {
+          "objective": 194.0,
+          "opt_ratio_pct": 82.90598290598291,
+          "seconds": 0.0022197999969648663,
+          "peak_rss_mib": 51.265625
+        },
+        "sa_b1": {
+          "objective": 230.0,
+          "opt_ratio_pct": 98.29059829059828,
+          "seconds": 0.13762770000175806,
+          "peak_rss_mib": 51.265625
+        },
+        "duffing_b32": {
+          "objective": 224.0,
+          "opt_ratio_pct": 95.72649572649573,
+          "seconds": 0.03146019999985583,
+          "peak_rss_mib": 51.265625
+        },
+        "dsb_b32": {
+          "objective": 206.0,
+          "opt_ratio_pct": 88.03418803418803,
+          "seconds": 0.026061000000481727,
+          "peak_rss_mib": 51.265625
+        }
+      }
+    },
+    {
+      "qid": 3877,
+      "name": "QPLIB_3877",
+      "n_vars": 630,
+      "quad_nz": 1224,
+      "density_pct": 0.6177606177606177,
+      "sense": "maximize",
+      "opt_obj": 602.0,
+      "mittelmann_times": {
+        "BARON": 210,
+        "SCIP": "t",
+        "MCSPARSE": 448,
+        "QUBOWL": 1,
+        "BIQBIN": "t",
+        "SHOT": 906,
+        "COPT": 1688,
+        "QUPLANE": 11
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 520.0,
+          "opt_ratio_pct": 86.37873754152824,
+          "seconds": 0.00424629999906756,
+          "peak_rss_mib": 51.265625
+        },
+        "dsb_b1": {
+          "objective": 456.0,
+          "opt_ratio_pct": 75.74750830564784,
+          "seconds": 0.004610200001479825,
+          "peak_rss_mib": 51.265625
+        },
+        "sa_b1": {
+          "objective": 598.0,
+          "opt_ratio_pct": 99.33554817275747,
+          "seconds": 0.4098907000006875,
+          "peak_rss_mib": 51.265625
+        },
+        "duffing_b32": {
+          "objective": 546.0,
+          "opt_ratio_pct": 90.69767441860465,
+          "seconds": 0.08328619999883813,
+          "peak_rss_mib": 51.265625
+        },
+        "dsb_b32": {
+          "objective": 488.0,
+          "opt_ratio_pct": 81.06312292358804,
+          "seconds": 0.07583059999888064,
+          "peak_rss_mib": 51.265625
+        }
+      }
+    },
+    {
+      "qid": 5721,
+      "name": "QPLIB_5721",
+      "n_vars": 300,
+      "quad_nz": 34576,
+      "density_pct": 77.09253065774804,
+      "sense": "maximize",
+      "opt_obj": 8579363.0,
+      "mittelmann_times": {
+        "BARON": 18,
+        "SCIP": "t",
+        "MCSPARSE": "t",
+        "QUBOWL": 1,
+        "BIQBIN": 2026,
+        "SHOT": 1,
+        "COPT": 1,
+        "QUPLANE": 4
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 7915618.0,
+          "opt_ratio_pct": 92.2634699102952,
+          "seconds": 0.012027799999486888,
+          "peak_rss_mib": 60.03125
+        },
+        "dsb_b1": {
+          "objective": 7855243.0,
+          "opt_ratio_pct": 91.55974633547969,
+          "seconds": 0.014237800001865253,
+          "peak_rss_mib": 60.03125
+        },
+        "sa_b1": {
+          "objective": 8158871.0,
+          "opt_ratio_pct": 95.09879696196559,
+          "seconds": 0.1577361000017845,
+          "peak_rss_mib": 60.03125
+        },
+        "duffing_b32": {
+          "objective": 8187466.0,
+          "opt_ratio_pct": 95.43209676522604,
+          "seconds": 0.17789069999707863,
+          "peak_rss_mib": 60.03125
+        },
+        "dsb_b32": {
+          "objective": 7966880.0,
+          "opt_ratio_pct": 92.86097347786776,
+          "seconds": 0.36610320000181673,
+          "peak_rss_mib": 60.03125
+        }
+      }
+    },
+    {
+      "qid": 5725,
+      "name": "QPLIB_5725",
+      "n_vars": 343,
+      "quad_nz": 1029,
+      "density_pct": 1.7543859649122806,
+      "sense": "maximize",
+      "opt_obj": 33611981.0,
+      "mittelmann_times": {
+        "BARON": 11,
+        "SCIP": 104,
+        "MCSPARSE": 4,
+        "QUBOWL": 1,
+        "BIQBIN": 39,
+        "SHOT": 7,
+        "COPT": 21,
+        "QUPLANE": 226
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 28846160.0,
+          "opt_ratio_pct": 85.82106481614397,
+          "seconds": 0.0064791999975568615,
+          "peak_rss_mib": 60.03125
+        },
+        "dsb_b1": {
+          "objective": 30334486.0,
+          "opt_ratio_pct": 90.24902757144841,
+          "seconds": 0.004634900000382913,
+          "peak_rss_mib": 60.03125
+        },
+        "sa_b1": {
+          "objective": 32010731.0,
+          "opt_ratio_pct": 95.23607370836012,
+          "seconds": 0.12643319999915548,
+          "peak_rss_mib": 60.03125
+        },
+        "duffing_b32": {
+          "objective": 31745941.0,
+          "opt_ratio_pct": 94.44828913832838,
+          "seconds": 0.06579249999776948,
+          "peak_rss_mib": 60.03125
+        },
+        "dsb_b32": {
+          "objective": 30184405.0,
+          "opt_ratio_pct": 89.80251714411001,
+          "seconds": 0.07370139999693492,
+          "peak_rss_mib": 60.03125
+        }
+      }
+    },
+    {
+      "qid": 5755,
+      "name": "QPLIB_5755",
+      "n_vars": 400,
+      "quad_nz": 800,
+      "density_pct": 1.0025062656641603,
+      "sense": "maximize",
+      "opt_obj": 24838942.0,
+      "mittelmann_times": {
+        "BARON": 2,
+        "SCIP": 2,
+        "MCSPARSE": 1,
+        "QUBOWL": 1,
+        "BIQBIN": 1317,
+        "SHOT": 1,
+        "COPT": 1,
+        "QUPLANE": 52
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 21886670.0,
+          "opt_ratio_pct": 88.11434077989311,
+          "seconds": 0.0036815000021306332,
+          "peak_rss_mib": 60.03125
+        },
+        "dsb_b1": {
+          "objective": 21209262.0,
+          "opt_ratio_pct": 85.38713927509473,
+          "seconds": 0.0039990000004763715,
+          "peak_rss_mib": 60.03125
+        },
+        "sa_b1": {
+          "objective": 23756394.0,
+          "opt_ratio_pct": 95.64173063409866,
+          "seconds": 0.11646180000025197,
+          "peak_rss_mib": 60.03125
+        },
+        "duffing_b32": {
+          "objective": 23298274.0,
+          "opt_ratio_pct": 93.79736866409205,
+          "seconds": 0.06713449999733712,
+          "peak_rss_mib": 60.03125
+        },
+        "dsb_b32": {
+          "objective": 22577589.0,
+          "opt_ratio_pct": 90.89593671099195,
+          "seconds": 0.07984999999825959,
+          "peak_rss_mib": 60.03125
+        }
+      }
+    },
+    {
+      "qid": 5875,
+      "name": "QPLIB_5875",
+      "n_vars": 200,
+      "quad_nz": 15771,
+      "density_pct": 79.25125628140704,
+      "sense": "maximize",
+      "opt_obj": 43757.0,
+      "mittelmann_times": {
+        "BARON": "t",
+        "SCIP": "t",
+        "MCSPARSE": "t",
+        "QUBOWL": 721,
+        "BIQBIN": "t",
+        "SHOT": "t",
+        "COPT": "t",
+        "QUPLANE": 900
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 42954.0,
+          "opt_ratio_pct": 98.16486505016341,
+          "seconds": 0.00620570000319276,
+          "peak_rss_mib": 60.03125
+        },
+        "dsb_b1": {
+          "objective": 42578.0,
+          "opt_ratio_pct": 97.30557396530841,
+          "seconds": 0.01142719999916153,
+          "peak_rss_mib": 60.03125
+        },
+        "sa_b1": {
+          "objective": 43630.0,
+          "opt_ratio_pct": 99.70976072399844,
+          "seconds": 0.19341029999850434,
+          "peak_rss_mib": 60.03125
+        },
+        "duffing_b32": {
+          "objective": 43294.0,
+          "opt_ratio_pct": 98.9418835843408,
+          "seconds": 0.0855197999990196,
+          "peak_rss_mib": 60.03125
+        },
+        "dsb_b32": {
+          "objective": 43653.0,
+          "opt_ratio_pct": 99.76232374248691,
+          "seconds": 0.15938290000121924,
+          "peak_rss_mib": 60.03125
+        }
+      }
+    },
+    {
+      "qid": 5881,
+      "name": "QPLIB_5881",
+      "n_vars": 120,
+      "quad_nz": 2123,
+      "density_pct": 29.73389355742297,
+      "sense": "maximize",
+      "opt_obj": 13067.0,
+      "mittelmann_times": {
+        "BARON": 442,
+        "SCIP": 2967,
+        "MCSPARSE": 75,
+        "QUBOWL": 9,
+        "BIQBIN": 10,
+        "SHOT": 61,
+        "COPT": 128,
+        "QUPLANE": 176
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 13001.0,
+          "opt_ratio_pct": 99.49491084411112,
+          "seconds": 0.004179700001259334,
+          "peak_rss_mib": 60.03125
+        },
+        "dsb_b1": {
+          "objective": 12507.0,
+          "opt_ratio_pct": 95.71439504094283,
+          "seconds": 0.00308710000172141,
+          "peak_rss_mib": 60.03125
+        },
+        "sa_b1": {
+          "objective": 13051.0,
+          "opt_ratio_pct": 99.87755414402693,
+          "seconds": 0.057783199998084456,
+          "peak_rss_mib": 60.03125
+        },
+        "duffing_b32": {
+          "objective": 13001.0,
+          "opt_ratio_pct": 99.49491084411112,
+          "seconds": 0.02566350000051898,
+          "peak_rss_mib": 60.03125
+        },
+        "dsb_b32": {
+          "objective": 13060.0,
+          "opt_ratio_pct": 99.94642993801179,
+          "seconds": 0.04870700000174111,
+          "peak_rss_mib": 60.03125
+        }
+      }
+    },
+    {
+      "qid": 5882,
+      "name": "QPLIB_5882",
+      "n_vars": 150,
+      "quad_nz": 8791,
+      "density_pct": 78.66666666666666,
+      "sense": "maximize",
+      "opt_obj": 25388.0,
+      "mittelmann_times": {
+        "BARON": "t",
+        "SCIP": "t",
+        "MCSPARSE": "t",
+        "QUBOWL": 145,
+        "BIQBIN": 232,
+        "SHOT": "t",
+        "COPT": "t",
+        "QUPLANE": 422
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 24949.0,
+          "opt_ratio_pct": 98.27083661572397,
+          "seconds": 0.006081200001062825,
+          "peak_rss_mib": 60.03125
+        },
+        "dsb_b1": {
+          "objective": 25124.0,
+          "opt_ratio_pct": 98.96013864818023,
+          "seconds": 0.004948500001773937,
+          "peak_rss_mib": 60.03125
+        },
+        "sa_b1": {
+          "objective": 25388.0,
+          "opt_ratio_pct": 100.0,
+          "seconds": 0.10950510000111535,
+          "peak_rss_mib": 60.03125
+        },
+        "duffing_b32": {
+          "objective": 25363.0,
+          "opt_ratio_pct": 99.90152828107767,
+          "seconds": 0.059029199997894466,
+          "peak_rss_mib": 60.03125
+        },
+        "dsb_b32": {
+          "objective": 25354.0,
+          "opt_ratio_pct": 99.86607846226563,
+          "seconds": 0.0942120999970939,
+          "peak_rss_mib": 60.03125
+        }
+      }
+    },
+    {
+      "qid": 5909,
+      "name": "QPLIB_5909",
+      "n_vars": 250,
+      "quad_nz": 3015,
+      "density_pct": 9.686746987951807,
+      "sense": "maximize",
+      "opt_obj": 35726.0,
+      "mittelmann_times": {
+        "BARON": "t",
+        "SCIP": "t",
+        "MCSPARSE": "t",
+        "QUBOWL": 1281,
+        "BIQBIN": 1842,
+        "SHOT": "t",
+        "COPT": "t",
+        "QUPLANE": 1293
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 34004.0,
+          "opt_ratio_pct": 95.17998096624308,
+          "seconds": 0.003668899997137487,
+          "peak_rss_mib": 60.03125
+        },
+        "dsb_b1": {
+          "objective": 34635.0,
+          "opt_ratio_pct": 96.94620164586016,
+          "seconds": 0.006832499999291031,
+          "peak_rss_mib": 60.03125
+        },
+        "sa_b1": {
+          "objective": 35726.0,
+          "opt_ratio_pct": 100.0,
+          "seconds": 0.13982239999677404,
+          "peak_rss_mib": 60.03125
+        },
+        "duffing_b32": {
+          "objective": 34004.0,
+          "opt_ratio_pct": 95.17998096624308,
+          "seconds": 0.06230430000141496,
+          "peak_rss_mib": 60.03125
+        },
+        "dsb_b32": {
+          "objective": 34934.0,
+          "opt_ratio_pct": 97.78312713429995,
+          "seconds": 0.09884560000136844,
+          "peak_rss_mib": 60.03125
+        }
+      }
+    },
+    {
+      "qid": 5922,
+      "name": "QPLIB_5922",
+      "n_vars": 500,
+      "quad_nz": 12278,
+      "density_pct": 9.842084168336672,
+      "sense": "maximize",
+      "opt_obj": 128339.0,
+      "mittelmann_times": {
+        "BARON": "t",
+        "SCIP": "t",
+        "MCSPARSE": "t",
+        "QUBOWL": "t",
+        "BIQBIN": "t",
+        "SHOT": "t",
+        "COPT": "t",
+        "QUPLANE": "t"
+      },
+      "results": {
+        "duffing_b1": {
+          "objective": 127833.0,
+          "opt_ratio_pct": 99.60573169496412,
+          "seconds": 0.00857209999958286,
+          "peak_rss_mib": 60.03125
+        },
+        "dsb_b1": {
+          "objective": 127202.0,
+          "opt_ratio_pct": 99.11406509322966,
+          "seconds": 0.014157400000840425,
+          "peak_rss_mib": 60.03125
+        },
+        "sa_b1": {
+          "objective": 128282.0,
+          "opt_ratio_pct": 99.95558637670544,
+          "seconds": 0.3900952999974834,
+          "peak_rss_mib": 60.03125
+        },
+        "duffing_b32": {
+          "objective": 127833.0,
+          "opt_ratio_pct": 99.60573169496412,
+          "seconds": 0.15444669999851612,
+          "peak_rss_mib": 60.03125
+        },
+        "dsb_b32": {
+          "objective": 127906.0,
+          "opt_ratio_pct": 99.66261230023609,
+          "seconds": 0.3483272000012221,
+          "peak_rss_mib": 60.03125
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "instance": "G67",
+  "n_spins": 10000,
+  "n_edges": 20000,
+  "bks": 6950.0,
+  "solver": "real_audio",
+  "batch_size": 1,
+  "n_steps": 100,
+  "best_cut": 6282.0,
+  "mean_cut": 6282.0,
+  "best_energy": -12706.0,
+  "bks_percent": 90.38848920863309,
+  "seconds": 245.64599009999984,
+  "peak_rss_mib": 91.6328125,
+  "audit_passed": true,
+  "extra_info": {
+    "frame_samples": 96000,
+    "n_guard_each_side": 240,
+    "rx_peak": 0.32194754481315613,
+    "cal_phase_std_deg": 1.1722975489867835,
+    "cal_snr_median_db": 2.564976827592746,
+    "out_channel": "l"
+  }
+}

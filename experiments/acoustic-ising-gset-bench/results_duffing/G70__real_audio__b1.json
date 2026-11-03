@@ -1,0 +1,24 @@
+{
+  "instance": "G70",
+  "n_spins": 10000,
+  "n_edges": 9999,
+  "bks": 9591.0,
+  "solver": "real_audio",
+  "batch_size": 1,
+  "n_steps": 100,
+  "best_cut": 9129.0,
+  "mean_cut": 9129.0,
+  "best_energy": -8259.0,
+  "bks_percent": 95.18298404754458,
+  "seconds": 245.65714910000133,
+  "peak_rss_mib": 90.375,
+  "audit_passed": true,
+  "extra_info": {
+    "frame_samples": 96000,
+    "n_guard_each_side": 240,
+    "rx_peak": 0.3232744336128235,
+    "cal_phase_std_deg": 2.779405170931076,
+    "cal_snr_median_db": 0.8101283542124219,
+    "out_channel": "l"
+  }
+}

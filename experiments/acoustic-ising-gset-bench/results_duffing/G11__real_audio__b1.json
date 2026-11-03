@@ -1,0 +1,24 @@
+{
+  "instance": "G11",
+  "n_spins": 800,
+  "n_edges": 1600,
+  "bks": 564.0,
+  "solver": "real_audio",
+  "batch_size": 1,
+  "n_steps": 100,
+  "best_cut": 506.0,
+  "mean_cut": 506.0,
+  "best_energy": -978.0,
+  "bks_percent": 89.71631205673759,
+  "seconds": 66.12754599999971,
+  "peak_rss_mib": 75.65625,
+  "audit_passed": true,
+  "extra_info": {
+    "frame_samples": 12000,
+    "n_guard_each_side": 160,
+    "rx_peak": 0.3278714120388031,
+    "cal_phase_std_deg": 1.1610450718999437,
+    "cal_snr_median_db": 28.46076729444779,
+    "out_channel": "l"
+  }
+}

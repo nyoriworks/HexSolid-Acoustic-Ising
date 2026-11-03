@@ -1,0 +1,20 @@
+{
+  "instance": "G70",
+  "n_spins": 10000,
+  "n_edges": 9999,
+  "bks": 9591.0,
+  "solver": "virtual_audio",
+  "batch_size": 8,
+  "n_steps": 100,
+  "best_cut": 9221.0,
+  "mean_cut": 9202.25,
+  "best_energy": -8443.0,
+  "bks_percent": 96.14221666145345,
+  "seconds": 4.289539600000353,
+  "peak_rss_mib": 109.0234375,
+  "audit_passed": true,
+  "extra_info": {
+    "frame_samples": 96000,
+    "n_guard_each_side": 240
+  }
+}

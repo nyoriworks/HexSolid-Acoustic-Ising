@@ -1,0 +1,22 @@
+{
+  "instance": "G77",
+  "n_spins": 14000,
+  "n_edges": 28000,
+  "weights": "+/-1",
+  "topology": "toroidal_grid_spinglass",
+  "bks": 9940.0,
+  "solver": "dsb",
+  "batch_size": 1,
+  "n_steps": 90,
+  "best_cut": 9480.0,
+  "mean_cut": 9480.0,
+  "best_energy": -18752.0,
+  "bks_percent": 95.37223340040242,
+  "seconds": 0.009691600000223843,
+  "peak_rss_mib": 74.91015625,
+  "audit_passed": true,
+  "extra_info": {
+    "frame_samples": 144000,
+    "n_steps": 90
+  }
+}

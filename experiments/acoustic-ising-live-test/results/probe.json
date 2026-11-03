@@ -1,0 +1,70 @@
+{
+  "musical12": {
+    "band": "Musical12Tone (C5..B5)",
+    "f_range_hz": [
+      520.0,
+      990.0
+    ],
+    "output_gain": 0.04,
+    "noise_floor_rms_dbfs": -112.35193191053673,
+    "noise_floor_peak_dbfs": -87.49617117342356,
+    "rx_raw_peak": 0.27995261549949646,
+    "rx_raw_peak_dbfs": -11.058309413768049,
+    "rx_payload_rms": 0.03931450956875405,
+    "rx_payload_rms_dbfs": -28.108942751938265,
+    "clipped_samples": 0,
+    "latencies_samples": [
+      4486,
+      4485,
+      4485,
+      4485
+    ],
+    "latencies_ms": [
+      93.46,
+      93.44,
+      93.44,
+      93.44
+    ],
+    "latency_jitter_samples": 1,
+    "snr_db_min": 39.77458777133256,
+    "snr_db_median": 41.343440783918346,
+    "snr_db_max": 42.88735564998821,
+    "phase_jitter_deg_median": 0.19044705055353228,
+    "phase_jitter_deg_max": 0.2545980105649373,
+    "level_status": "OPTIMAL"
+  },
+  "comb24": {
+    "band": "TopOctaveComb (10..20kHz)",
+    "f_range_hz": [
+      10000.0,
+      19430.0
+    ],
+    "output_gain": 0.04,
+    "noise_floor_rms_dbfs": -112.22248895735098,
+    "noise_floor_peak_dbfs": -96.05295753578353,
+    "rx_raw_peak": 0.27984893321990967,
+    "rx_raw_peak_dbfs": -11.06152688556773,
+    "rx_payload_rms": 0.015542535890489309,
+    "rx_payload_rms_dbfs": -36.16956242190359,
+    "clipped_samples": 0,
+    "latencies_samples": [
+      4473,
+      4477,
+      4486,
+      4473
+    ],
+    "latencies_ms": [
+      93.19,
+      93.27,
+      93.46,
+      93.19
+    ],
+    "latency_jitter_samples": 13,
+    "snr_db_min": 6.24063194742242,
+    "snr_db_median": 22.02922558295778,
+    "snr_db_max": 35.563162553877824,
+    "phase_jitter_deg_median": 68.30682891013907,
+    "phase_jitter_deg_max": 146.39252629164056,
+    "level_status": "TOO_QUIET_LOW_SNR"
+  }
+}

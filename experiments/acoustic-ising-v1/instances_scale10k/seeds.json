@@ -1,0 +1,54 @@
+{
+  "created_by": "prepare_scale10k.py",
+  "solver_master_seed_hex": "b9298d0ce2576b056fe45facb0ebcc8dc29f1e22484875155ebbfdfa3014c36c",
+  "instances": {
+    "maxcut2000": {
+      "kind": "maxcut",
+      "n_spins": 2000,
+      "n_edges": 6000,
+      "seed_hex": "0a62ee66cf20e4158d28c9434f3d45e1d4260672a5fc4472b98919d01a81edd9"
+    },
+    "sk2000": {
+      "kind": "sk",
+      "n_spins": 2000,
+      "n_edges": 1999000,
+      "seed_hex": "b4b56323505ba9fa99adecb472a2cd5ef20f0cb293625b38fc84124fce16be9b"
+    },
+    "maxcut3000": {
+      "kind": "maxcut",
+      "n_spins": 3000,
+      "n_edges": 9000,
+      "seed_hex": "571ccc474d232a44a17a2f8d0147cdf2fa0f1e4d4e7ef56c21c07563c5d56e1e"
+    },
+    "sk3000": {
+      "kind": "sk",
+      "n_spins": 3000,
+      "n_edges": 4498500,
+      "seed_hex": "ca952b715e4dc8efb64251931490c1db0efafad512aca993ab92c2406ad647ce"
+    },
+    "maxcut5000": {
+      "kind": "maxcut",
+      "n_spins": 5000,
+      "n_edges": 15000,
+      "seed_hex": "64ff7d8a7f7e4ca0484b015aa7602147a1491045ced1df02b7a5df12abbc1b07"
+    },
+    "sk5000": {
+      "kind": "sk",
+      "n_spins": 5000,
+      "n_edges": 12497500,
+      "seed_hex": "be1e5a3d19c6d7835d27192a1737fc8c223a2be4cedb0a71067487028f093de3"
+    },
+    "maxcut10000": {
+      "kind": "maxcut",
+      "n_spins": 10000,
+      "n_edges": 30000,
+      "seed_hex": "6b3403354a261b6a3be6fbff3c925b0d3359e0662abdd1077d2601a986baa87f"
+    },
+    "sk10000": {
+      "kind": "sk",
+      "n_spins": 10000,
+      "n_edges": 49995000,
+      "seed_hex": "4881c1ea3deb2d2dac552d2594f032610947154b10fa9895b26f28fab54c3036"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "instance": "G81",
+  "n_spins": 20000,
+  "n_edges": 40000,
+  "weights": "+/-1",
+  "topology": "toroidal_grid_spinglass",
+  "bks": 14060.0,
+  "solver": "duffing_real_audio",
+  "batch_size": 1,
+  "n_steps": 90,
+  "best_cut": 10318.0,
+  "mean_cut": 10318.0,
+  "best_energy": -20602.0,
+  "bks_percent": 73.38549075391181,
+  "seconds": 407.6993885999982,
+  "peak_rss_mib": 108.25390625,
+  "audit_passed": true,
+  "extra_info": {
+    "frame_samples": 192000,
+    "n_steps": 90,
+    "rx_peak": 0.32147619128227234,
+    "cal_phase_std_deg": 1.2281036653080577,
+    "cal_snr_median_db": 0.8994074079587959,
+    "out_channel": "l"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "instance": "G77",
+  "n_spins": 14000,
+  "n_edges": 28000,
+  "weights": "+/-1",
+  "topology": "toroidal_grid_spinglass",
+  "bks": 9940.0,
+  "solver": "duffing_virtual_audio",
+  "batch_size": 1,
+  "n_steps": 90,
+  "best_cut": 9102.0,
+  "mean_cut": 9102.0,
+  "best_energy": -17996.0,
+  "bks_percent": 91.56941649899396,
+  "seconds": 0.9669045999980881,
+  "peak_rss_mib": 92.53125,
+  "audit_passed": true,
+  "extra_info": {
+    "frame_samples": 144000,
+    "n_steps": 90
+  }
+}

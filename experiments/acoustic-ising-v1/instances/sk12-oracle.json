@@ -1,0 +1,22 @@
+{
+  "problem": "sk12",
+  "n_spins": 12,
+  "states_enumerated": 4096,
+  "ground_energy": -7.388410385249091,
+  "energy_per_spin": -0.6157008654374242,
+  "first_excited_energy": -7.159629073514274,
+  "gap": 0.2287813117348172,
+  "degeneracy": 2,
+  "ground_indices": [
+    606,
+    3489
+  ],
+  "witnesses": [
+    "001001011110",
+    "110110100001"
+  ],
+  "uniform_mean_energy": 3.469446951953614e-18,
+  "table_max_difference": 3.552713678800501e-15,
+  "xor_seconds": 0.0006420419958885759,
+  "mitm_seconds": 4.095799522474408e-05
+}

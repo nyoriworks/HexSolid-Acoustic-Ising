@@ -1,0 +1,22 @@
+{
+  "instance": "G22",
+  "n_spins": 2000,
+  "n_edges": 19990,
+  "weights": "+1",
+  "topology": "random_er",
+  "bks": 13359.0,
+  "solver": "sa_1",
+  "batch_size": 1,
+  "n_steps": 95,
+  "best_cut": 13220.0,
+  "mean_cut": 13220.0,
+  "best_energy": -6450.0,
+  "bks_ratio": 0.9895950295680814,
+  "bks_percent": 98.95950295680814,
+  "seconds": 0.024698800001715426,
+  "peak_rss_mib": 73.6328125,
+  "solver_rss_delta_mib": 0.0,
+  "matrix_storage_kib": 491.95703125,
+  "raw_file_audit_passed": true,
+  "extra_hw": {}
+}

@@ -1,0 +1,482 @@
+{
+  "passed": true,
+  "total_checks": 81,
+  "passed_checks": 81,
+  "seconds": 0.9839547080046032,
+  "checks": [
+    {
+      "name": "external unchanged: HANDOVER_ACOUSTIC_ISING_CURRENT.md (HexSolid)",
+      "passed": true,
+      "expected": "0ca7fed329454a60d61523146dcc290464b694d209b1bfbc0c90c490cd63289c",
+      "actual": "0ca7fed329454a60d61523146dcc290464b694d209b1bfbc0c90c490cd63289c"
+    },
+    {
+      "name": "external unchanged: HANDOVER_THIS_CHAT_CURRENT.md (HexSolid)",
+      "passed": true,
+      "expected": "8a7ee6ffd74eae34407279c7e9bf9b22600487e35491ccbfbb40e3b031d6a792",
+      "actual": "8a7ee6ffd74eae34407279c7e9bf9b22600487e35491ccbfbb40e3b031d6a792"
+    },
+    {
+      "name": "external unchanged: HANDOVER_TENSOR_ALGORITHMS.md (HexSolid)",
+      "passed": true,
+      "expected": "afa5b28cedc14d1a9e1a844f288e1e013d09c2840d004e77bc9906660b8cf4df",
+      "actual": "afa5b28cedc14d1a9e1a844f288e1e013d09c2840d004e77bc9906660b8cf4df"
+    },
+    {
+      "name": "external unchanged: graph.json (tensor-maxcut-qaoa-v1)",
+      "passed": true,
+      "expected": "1e1f37e5a666620aecffc7efaf468b500460207f018e6e8486257a3e58d360c5",
+      "actual": "1e1f37e5a666620aecffc7efaf468b500460207f018e6e8486257a3e58d360c5"
+    },
+    {
+      "name": "external unchanged: oracle.json (tensor-maxcut-qaoa-v1)",
+      "passed": true,
+      "expected": "4ad57e67bd9aaa9afd2c8e7978c2d9416f8fa1bd712df5a189d8a79de45d9f50",
+      "actual": "4ad57e67bd9aaa9afd2c8e7978c2d9416f8fa1bd712df5a189d8a79de45d9f50"
+    },
+    {
+      "name": "external unchanged: couplings.npy (tensor-sk-qaoa-v1)",
+      "passed": true,
+      "expected": "d12ac3abe398ad922066a0c2635aebfb3f06cc90b51e9c4fe0985639c314b526",
+      "actual": "d12ac3abe398ad922066a0c2635aebfb3f06cc90b51e9c4fe0985639c314b526"
+    },
+    {
+      "name": "external unchanged: oracle.json (tensor-sk-qaoa-v1)",
+      "passed": true,
+      "expected": "d9daef8a9d8bdb53ac0cb5cc1f0977802d18445319cc25fc9cf1a85bfe6e1e03",
+      "actual": "d9daef8a9d8bdb53ac0cb5cc1f0977802d18445319cc25fc9cf1a85bfe6e1e03"
+    },
+    {
+      "name": "frozen tracked sources unchanged",
+      "passed": true
+    },
+    {
+      "name": "preparation instance artifact hashes",
+      "passed": true
+    },
+    {
+      "name": "no oracle tokens in solver/schedule/backends",
+      "passed": true
+    },
+    {
+      "name": "RealAcousticBackend default speaker safety guard",
+      "passed": true
+    },
+    {
+      "name": "SK12 Box-Muller byte replay & symmetry",
+      "passed": true,
+      "max_error": 0.0
+    },
+    {
+      "name": "SK100 Box-Muller byte replay & symmetry",
+      "passed": true,
+      "max_error": 0.0
+    },
+    {
+      "name": "SK500 Box-Muller byte replay & symmetry",
+      "passed": true,
+      "max_error": 0.0
+    },
+    {
+      "name": "SK1000 Box-Muller byte replay & symmetry",
+      "passed": true,
+      "max_error": 0.0
+    },
+    {
+      "name": "MaxCut12 pure-Python byte replay (18 edges)",
+      "passed": true
+    },
+    {
+      "name": "MaxCut100 pure-Python byte replay (300 edges)",
+      "passed": true
+    },
+    {
+      "name": "MaxCut500 pure-Python byte replay (1500 edges)",
+      "passed": true
+    },
+    {
+      "name": "MaxCut1000 pure-Python byte replay (3000 edges)",
+      "passed": true
+    },
+    {
+      "name": "MaxCut12 independent 4096-state enumeration",
+      "passed": true,
+      "optimal_cut": 42.0
+    },
+    {
+      "name": "SK12 independent 4096-state enumeration",
+      "passed": true,
+      "ground_energy": -7.388410385249092
+    },
+    {
+      "name": "maxcut12 independent witness score (OIM & Greedy)",
+      "passed": true,
+      "oim_cut": 42.0,
+      "greedy_cut": 42.0
+    },
+    {
+      "name": "maxcut12 prefix 16 witness",
+      "passed": true
+    },
+    {
+      "name": "maxcut12 prefix 64 witness",
+      "passed": true
+    },
+    {
+      "name": "maxcut12 prefix 128 witness",
+      "passed": true
+    },
+    {
+      "name": "maxcut12 128-trajectory statistics & isolated RSS < 256 MiB",
+      "passed": true,
+      "peak_rss_mib": 48.234375
+    },
+    {
+      "name": "sk12 independent witness score (OIM & Greedy)",
+      "passed": true,
+      "oim_energy": -7.388410385249092,
+      "greedy_energy": -7.388410385249092
+    },
+    {
+      "name": "sk12 prefix 16 witness",
+      "passed": true
+    },
+    {
+      "name": "sk12 prefix 64 witness",
+      "passed": true
+    },
+    {
+      "name": "sk12 prefix 128 witness",
+      "passed": true
+    },
+    {
+      "name": "sk12 128-trajectory statistics & isolated RSS < 256 MiB",
+      "passed": true,
+      "peak_rss_mib": 48.203125
+    },
+    {
+      "name": "maxcut24 independent witness score (OIM & Greedy)",
+      "passed": true,
+      "oim_cut": 62.0,
+      "greedy_cut": 62.0
+    },
+    {
+      "name": "maxcut24 prefix 16 witness",
+      "passed": true
+    },
+    {
+      "name": "maxcut24 prefix 64 witness",
+      "passed": true
+    },
+    {
+      "name": "maxcut24 prefix 128 witness",
+      "passed": true
+    },
+    {
+      "name": "maxcut24 128-trajectory statistics & isolated RSS < 256 MiB",
+      "passed": true,
+      "peak_rss_mib": 46.703125
+    },
+    {
+      "name": "sk24 independent witness score (OIM & Greedy)",
+      "passed": true,
+      "oim_energy": -16.548016339179107,
+      "greedy_energy": -16.548016339179107
+    },
+    {
+      "name": "sk24 prefix 16 witness",
+      "passed": true
+    },
+    {
+      "name": "sk24 prefix 64 witness",
+      "passed": true
+    },
+    {
+      "name": "sk24 prefix 128 witness",
+      "passed": true
+    },
+    {
+      "name": "sk24 128-trajectory statistics & isolated RSS < 256 MiB",
+      "passed": true,
+      "peak_rss_mib": 48.65625
+    },
+    {
+      "name": "maxcut100 independent witness score (OIM & Greedy)",
+      "passed": true,
+      "oim_cut": 601.0,
+      "greedy_cut": 590.0
+    },
+    {
+      "name": "maxcut100 prefix 16 witness",
+      "passed": true
+    },
+    {
+      "name": "maxcut100 prefix 64 witness",
+      "passed": true
+    },
+    {
+      "name": "maxcut100 prefix 128 witness",
+      "passed": true
+    },
+    {
+      "name": "maxcut100 128-trajectory statistics & isolated RSS < 256 MiB",
+      "passed": true,
+      "peak_rss_mib": 55.625
+    },
+    {
+      "name": "sk100 independent witness score (OIM & Greedy)",
+      "passed": true,
+      "oim_energy": -73.40866396267657,
+      "greedy_energy": -73.40866396267657
+    },
+    {
+      "name": "sk100 prefix 16 witness",
+      "passed": true
+    },
+    {
+      "name": "sk100 prefix 64 witness",
+      "passed": true
+    },
+    {
+      "name": "sk100 prefix 128 witness",
+      "passed": true
+    },
+    {
+      "name": "sk100 128-trajectory statistics & isolated RSS < 256 MiB",
+      "passed": true,
+      "peak_rss_mib": 54.5625
+    },
+    {
+      "name": "maxcut500 independent witness score (OIM & Greedy)",
+      "passed": true,
+      "oim_cut": 3003.0,
+      "greedy_cut": 2918.0
+    },
+    {
+      "name": "maxcut500 prefix 16 witness",
+      "passed": true
+    },
+    {
+      "name": "maxcut500 prefix 64 witness",
+      "passed": true
+    },
+    {
+      "name": "maxcut500 prefix 128 witness",
+      "passed": true
+    },
+    {
+      "name": "maxcut500 128-trajectory statistics & isolated RSS < 256 MiB",
+      "passed": true,
+      "peak_rss_mib": 80.484375
+    },
+    {
+      "name": "sk500 independent witness score (OIM & Greedy)",
+      "passed": true,
+      "oim_energy": -373.27792952548,
+      "greedy_energy": -362.6892336814708
+    },
+    {
+      "name": "sk500 prefix 16 witness",
+      "passed": true
+    },
+    {
+      "name": "sk500 prefix 64 witness",
+      "passed": true
+    },
+    {
+      "name": "sk500 prefix 128 witness",
+      "passed": true
+    },
+    {
+      "name": "sk500 128-trajectory statistics & isolated RSS < 256 MiB",
+      "passed": true,
+      "peak_rss_mib": 91.3125
+    },
+    {
+      "name": "maxcut1000 independent witness score (OIM & Greedy)",
+      "passed": true,
+      "oim_cut": 6068.0,
+      "greedy_cut": 5930.0
+    },
+    {
+      "name": "maxcut1000 prefix 16 witness",
+      "passed": true
+    },
+    {
+      "name": "maxcut1000 prefix 64 witness",
+      "passed": true
+    },
+    {
+      "name": "maxcut1000 prefix 128 witness",
+      "passed": true
+    },
+    {
+      "name": "maxcut1000 128-trajectory statistics & isolated RSS < 256 MiB",
+      "passed": true,
+      "peak_rss_mib": 119.203125
+    },
+    {
+      "name": "sk1000 independent witness score (OIM & Greedy)",
+      "passed": true,
+      "oim_energy": -725.3777791152672,
+      "greedy_energy": -712.8126404327606
+    },
+    {
+      "name": "sk1000 prefix 16 witness",
+      "passed": true
+    },
+    {
+      "name": "sk1000 prefix 64 witness",
+      "passed": true
+    },
+    {
+      "name": "sk1000 prefix 128 witness",
+      "passed": true
+    },
+    {
+      "name": "sk1000 128-trajectory statistics & isolated RSS < 256 MiB",
+      "passed": true,
+      "peak_rss_mib": 124.4375
+    },
+    {
+      "name": "MaxCut24 exact optimum 62 reached in Phase 1",
+      "passed": true
+    },
+    {
+      "name": "SK24 exact ground -16.548016339179107 reached in Phase 1",
+      "passed": true
+    },
+    {
+      "name": "loopback_maxcut12_musical12 independent witness score",
+      "passed": true,
+      "best_cut": 42.0
+    },
+    {
+      "name": "loopback_maxcut24_comb independent witness score",
+      "passed": true,
+      "best_cut": 62.0
+    },
+    {
+      "name": "loopback_sk24_comb independent witness score",
+      "passed": true,
+      "best_energy": -16.548016339179107
+    },
+    {
+      "name": "loopback_sk500_comb independent witness score",
+      "passed": true,
+      "best_energy": -354.8853878585929
+    },
+    {
+      "name": "Exported 12-tone WAV format & spectral concentration on C5..B5 bins",
+      "passed": true,
+      "spectral_purity": 0.9999999975246404
+    },
+    {
+      "name": "maxcut24 deterministic 128-trajectory replay",
+      "passed": true,
+      "max_energy_diff": 0.0
+    },
+    {
+      "name": "sk24 deterministic 128-trajectory replay",
+      "passed": true,
+      "max_energy_diff": 0.0
+    },
+    {
+      "name": "TopOctaveCombMap(1000) harmonic-free & >=2-bin spacing",
+      "passed": true
+    }
+  ],
+  "artifact_hashes": {
+    "PROTOCOL.md": "53cd00796fe10d076d80aba488f6ac59b2956583929fcf6c46cd420e8ca47f0f",
+    "SCALE10K_PROTOCOL.md": "9d927a3472005f09c0254b96aed7f9a4a67471711df15a0261e1ceb316c17be0",
+    "SCALE10K_REPORT.md": "9d1c7c7b08c31af60659b048ff56c168e0ef3c6484885fce7fbd54eef2257fc3",
+    "artifact-audit-scale10k.json": "93c4a0522c02cdfea543a9a0b8711896f69de715f6a479d7aa41c231cb9b9095",
+    "audit.py": "022e5625b33421f7d86ea68dc2c827b8898fd6d8d33d55c7e4dbd29095d86244",
+    "audit_scale10k.py": "c2bd625aa61ca2a0bb0a1727b152419c7785bf53fcbb61aaa128829f61300480",
+    "backends/__init__.py": "bb2da629c70c5a280b26477ae09e25baa4d2296891ac3fede9bbaf7268359029",
+    "backends/audio_loopback.py": "50a83099d21e132a3f074a247e0ceaad932da698235ffa3d88ba32dfc71e661d",
+    "backends/base.py": "2e52916d341eb740869818bbf194c21a85be06686b003e377a9214f9d87b57b2",
+    "backends/ode_backend.py": "ba0a7b4bf0bbef824e7a573ed8d5ddb6168f82e769b6f61c55660948b164132f",
+    "backends/real_acoustic.py": "2677ec78a0c77addf3d6f89590de0be7b8b105198c4bc7ef4ed7affdbdb45205",
+    "frequency_map.py": "3f5e61e87f4c91af6289f59ca3e43c15b909f66818f379cd6487eed5b455dc96",
+    "instances/maxcut100-draw.bin": "42fc0f4e77dd3acc19cc9219779f1d140a2f15408a1f493798585e7948c0fa5e",
+    "instances/maxcut100-graph.json": "642bfef5659be649084dd87bb4bec2ef1c5111741dec5d38c4fa8b7879bbeca2",
+    "instances/maxcut1000-draw.bin": "6d6ab7f5c0e08d06f759e6a63b39e8edd2d2106c591cebf712b95ecbe7c6d75e",
+    "instances/maxcut1000-graph.json": "0f1ae3ce96917f12c97e593b3455088a234aab8cb0d2674a8a5423559d55ab5a",
+    "instances/maxcut12-draw.bin": "aa18892ca1eec637a9a92d2b6d15fc692af770426495d7147d31991869703489",
+    "instances/maxcut12-graph.json": "6c6478e35c0a8ef2407b348acd9d7b796401735a79c7c6513ae28891db026e5d",
+    "instances/maxcut12-oracle.json": "abfbaa3e8784851f3144d46c362bbaa9c4f847da1205f377963b829d4e3b355e",
+    "instances/maxcut500-draw.bin": "d1f4b5223c99411167f85c2eee5428b236851a3b1b581d6180c5b765d2d83db8",
+    "instances/maxcut500-graph.json": "9b15690c5d67929ff8b1181be108a0985a942ed0a4c3a6939125504a136df3c0",
+    "instances/oim-master-seed.bin": "52cda2363aa169f119b69ff1a8e901a0c2da10027e0457d98ea09ce2c4aa2cce",
+    "instances/sk100-couplings.npy": "f4831d78780badb5276b8187e128cf40fb2afea8ad85caf2938ee0a171468372",
+    "instances/sk100-draw.bin": "97a7db805375de9be54c2842c716aff0e9c100a2a10bac7e849ed9096cdb1178",
+    "instances/sk1000-couplings.npy": "c478cb1056ababbfeabf3168d7226bc539ab7b2af6c15424cc45d5c2a7af2a91",
+    "instances/sk1000-draw.bin": "740563c999e6a6185171c24669a45d6cb20c699d7e66904dda2bdd110a30f630",
+    "instances/sk12-couplings.npy": "f7cf0e35c322680552940eb97ad341a4b22425de7add8241c21f5024d677a269",
+    "instances/sk12-draw.bin": "554e1c87cb54af76662c8d4b2148e58b35959b12686a9732db0e02f1b4226092",
+    "instances/sk12-oracle.json": "027b174624ed9f461c8f68052258ab3f0edb24dc15a801b8600d6221755694fe",
+    "instances/sk500-couplings.npy": "508b8936762bd280f7e53dc4d1cbbb942a6767fe05c86581c0b5ad298b7fbf07",
+    "instances/sk500-draw.bin": "6cebac4a32855a8c75e49ac8efdf2cddd6641b0bd716ab6d13dd70f99c9325bd",
+    "instances_scale10k/seeds.json": "b4bb7709bcb94711ed03c9674b9ccc0a9df5f9d86c8258b11e42f61c839926bd",
+    "preparation.json": "668916a35bd90d98036fd8a4a3cb8f3567316dcc84f0d64a64e1489325c1b0ee",
+    "prepare.py": "70d2596b28eb2457b42836d02cc0b192f9af6faf6fd356ff8883600cffcc4b55",
+    "prepare_scale10k.py": "53b1077a7c3ec58c68cef4ada591cd7e1ac5f880bef8b35629bce11dc9e00cef",
+    "problem.py": "4786ba3bf344b488ada7567496063b7587f05af2e01150d8fa86118a310699e1",
+    "report.py": "353e48311b976acff55a013971c75be3eedc749c05d4d3a1856d50645cdaed03",
+    "report_scale10k.py": "a53727d233049653b1ed9fa23d70aeab232bdc7c70fc988f6acbe262e205761e",
+    "results/cases/loopback_maxcut12_musical12.json": "bf555c602b643c4505c75380c9fa6ab2f5137859da75ef509df562afcb822fa8",
+    "results/cases/loopback_maxcut24_comb.json": "9e28c7c1e299b7818649546f5da5c9b96d144b0aac4b038302c2a6f7781ccfa2",
+    "results/cases/loopback_sk24_comb.json": "3102733c0269c70c6df72bba1e5f93a1e4d921123105fe12132fe6b08e247bce",
+    "results/cases/loopback_sk500_comb.json": "9927e18fd189d2dc20f209ff155b336cedd5ffc9152438e385045602faa6e296",
+    "results/cases/maxcut100-greedy.json": "50eed1d24db3b4bcbc63f18bc29e79304f646d5a718ca67120b7d12d08cc3280",
+    "results/cases/maxcut100-oim.json": "de5fe3ff14afb75f061ffeee10fbabd78845bb55401374934e7c83f1dfa56d66",
+    "results/cases/maxcut1000-greedy.json": "486b50c700703ad874d9c8796af4ff66c517eaa1617bda831c6e9899da5c6adb",
+    "results/cases/maxcut1000-oim.json": "77fd409801266acf8ce998d7ae8dfdba43e9aa0ff4be10b9dc94087a687fde69",
+    "results/cases/maxcut12-greedy.json": "23d46ddbf6de6c3b8c9fdc0d0e0a81923480df87b06c93837cad5fd21fe2ce41",
+    "results/cases/maxcut12-oim.json": "fcb24a4a4746574063b5d23d48e22a1ec96adea3ffd9f2181996b1f0ea9efae1",
+    "results/cases/maxcut24-greedy.json": "a085b26a56809554aa0d6a05ef57c87d3a1701e4a098047e28000827e5bdf6a4",
+    "results/cases/maxcut24-oim.json": "2d8a72e6834fe7dc736a46d7a567ee919460878beaa22ae5d7a1d6b9f7d1dcf0",
+    "results/cases/maxcut500-greedy.json": "dc63596d4dc5605b2c7fe9f0ecf97549524a491c8a330720ac1a2dc68e680c54",
+    "results/cases/maxcut500-oim.json": "9773a0b91af4851dd842a47fda7c53fd0c2b821ccc51f9ceda55b4b765c9603a",
+    "results/cases/sk100-greedy.json": "233783e828b34b81f577728110c6e3301e8c7088a4ecd95fb03bab14277e63a4",
+    "results/cases/sk100-oim.json": "84d8ca3b06263abc7c959ec855b17e4c440ec35ef64f8b75be4985d3490a63fa",
+    "results/cases/sk1000-greedy.json": "40b4e78769776d6d91f001ddcf4e365951ead95935b479825db52c335125b561",
+    "results/cases/sk1000-oim.json": "b1394c33000759eeac960cf0f26957b5716960d272cc9dbfb1af43ef8055c9d8",
+    "results/cases/sk12-greedy.json": "da22ce5e3b2bd166f18b92ed634ac5fa55e34491e888ed758480a131956a8685",
+    "results/cases/sk12-oim.json": "fef5533479f7aeeb78441300a944db85da2cba5ec38ef996d9a7fdb338a97d74",
+    "results/cases/sk24-greedy.json": "51730348f434c8ab35a6c448a2286ad0e754a756a09edb66931bab55a762b810",
+    "results/cases/sk24-oim.json": "aa08537ba1f00863e9f219a55bec6144d44ef5e7aa9f7bf1d185005b450189dc",
+    "results/cases/sk500-greedy.json": "9c2fc7784dbb5cad3ceacf65b1fef642c005f3b132962b7251c971b0facce37f",
+    "results/cases/sk500-oim.json": "ee625308f0ad37c9ed73626c9bfcfbb673ae21a6f2508c32d5b60479cdf7306c",
+    "results/maxcut12-chord-evolution.wav": "5699431d3517840436be9ff514bd837cc49fa0efcdc392a6806ca4fa3cf84697",
+    "results/summary.json": "c8a99f5f3e35c47ddb8f781c4206f3c05bacf6692f0d023d85259835e8629629",
+    "results_scale10k/cases/loopback_maxcut10000_comb.json": "eb6a03919c7c4b00efe3b5df7a5cde1da6cddd6500920ddeb3e61ca5df2fb5f4",
+    "results_scale10k/cases/loopback_maxcut2000_comb.json": "cd6879787b54ed7c1c7c5354214c4c6b351667bc1a8bfab32839965312fcaf92",
+    "results_scale10k/cases/loopback_maxcut3000_comb.json": "db9d5e97b24f538d5f5e29b815ab7f6721ef025ef3237a31f993cdc13bdac917",
+    "results_scale10k/cases/loopback_maxcut5000_comb.json": "eb4022f9a6829a201410f6b6f50344a92dc22f341416f1e0e1164837fd6e1b3d",
+    "results_scale10k/cases/loopback_sk2000_comb.json": "c570c01123c89150df8f9c9aa85244852e497589ae5b0304fdf0951e5199426c",
+    "results_scale10k/cases/maxcut10000-greedy.json": "a2ce975d6b7720fa23b0903e629b9856175d313ffbeec2de6fa46af2e49d6313",
+    "results_scale10k/cases/maxcut10000-oim.json": "58d005d55cd72d7eb0c9afd4a12c77385effe61164b3b86a391e4e829f37be56",
+    "results_scale10k/cases/maxcut2000-greedy.json": "d18cc0104f45753181b8e7fe76b2fb2c9fb4d93eab1a0c8badd443e6779f5612",
+    "results_scale10k/cases/maxcut2000-oim.json": "f182382b2b7d7a781dbc33aeeab02b79122e67e66c6f89514e7e70395131ccb3",
+    "results_scale10k/cases/maxcut3000-greedy.json": "4902c7860444e3e933d3ed978a5483331191de5d8598cbe07c03b01e2b23f7de",
+    "results_scale10k/cases/maxcut3000-oim.json": "e90d20cdd8025c3876ddd8de2d4d36d34937938e46b502bd0f4238a4c2d131f1",
+    "results_scale10k/cases/maxcut5000-greedy.json": "28fe3daab46556b53f07ff03ad5853794a36b52c3891c735dabbabaf4778b367",
+    "results_scale10k/cases/maxcut5000-oim.json": "9c9f751f6508988e99d90f0148ac4d5795760a93ccd618cfae286a140ef4a9ba",
+    "results_scale10k/cases/sk10000-greedy.json": "f6055205a4a8ba8847bc5b664083ee2b60f4ad98822612fbd76931706e39b0d5",
+    "results_scale10k/cases/sk10000-oim.json": "0183693802a6decc9a2240cfd039cf1f0d4e6443dfd6b8a47c2cd537bc86b4e9",
+    "results_scale10k/cases/sk2000-greedy.json": "dd5169e837b172554b7941d111bf69c0ac670f63cefa651458a2cf6d70a85f92",
+    "results_scale10k/cases/sk2000-oim.json": "1820401a4452385d5a4bb1d630e9161177639bdceba77dd851409e6bed58d4e5",
+    "results_scale10k/cases/sk3000-greedy.json": "2d29d031a6e0a7e4b5bbf3271fa7c47e26cbcb17337b607b88872a20b9f13f47",
+    "results_scale10k/cases/sk3000-oim.json": "fab079864f49dc76d638071c2167d89b50317e37d0a309823e593205d27f72dc",
+    "results_scale10k/cases/sk5000-greedy.json": "6e93578d86e9b0ed280d98b3615ef5d35d6110e1369dfef5b0f650949d4b55b4",
+    "results_scale10k/cases/sk5000-oim.json": "b167911318b939fd73d93f6eea33b06f57c1db6e44fea6015affb022a95c60c1",
+    "results_scale10k/summary.json": "db630c3c69420b3c0f6679ff2d2e555ccff91423850edbad38256c43398314c7",
+    "run.py": "b36dec2f4e561e0428102f04b619a77fd270b63b5cceffa40cdadd9523829846",
+    "run_scale10k.py": "79fdf103bb5fbcf109b3eb238f45aff2d7bf3e4e4ef5a9546353b9d0af73a918",
+    "schedule.py": "4512158257769c217dad7d06d695b13efdcc00d021d1fb48a49b885baf773423",
+    "solver.py": "91020757f6ee55d826c5ba2e90975e9350e9cb99abdc8a940d9894a87612a0dc",
+    "source-hashes.json": "cd73071da8e15f56c9d50ffb50365e67fd03204605cf71c8fd9e1b0193667a62"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "instance": "G70",
+  "n_spins": 10000,
+  "n_edges": 9999,
+  "weights": "+1",
+  "topology": "sparse_random",
+  "bks": 9591.0,
+  "solver": "dsb_b32",
+  "batch_size": 32,
+  "n_steps": 800,
+  "best_cut": 9477.0,
+  "mean_cut": 9446.625,
+  "best_energy": -8955.0,
+  "bks_ratio": 0.9881138567406944,
+  "bks_percent": 98.81138567406944,
+  "seconds": 6.0654582000006485,
+  "peak_rss_mib": 92.140625,
+  "solver_rss_delta_mib": 19.74609375,
+  "matrix_storage_kib": 351.54296875,
+  "raw_file_audit_passed": true,
+  "extra_hw": {}
+}

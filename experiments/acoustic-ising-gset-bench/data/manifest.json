@@ -1,0 +1,90 @@
+{
+  "G1": {
+    "n": 800,
+    "m": 19176,
+    "weights": "+1",
+    "topology": "random_er",
+    "bks": 11624,
+    "url": "https://web.stanford.edu/~yyye/yyye/Gset/G1",
+    "sha256": "73bf704d8ffc55ba42260ab4cb659e3dcb6e729be70404d2cf476ba4e46d1665",
+    "bytes": 186622
+  },
+  "G11": {
+    "n": 800,
+    "m": 1600,
+    "weights": "+/-1",
+    "topology": "toroidal_grid_spinglass",
+    "bks": 564,
+    "url": "https://web.stanford.edu/~yyye/yyye/Gset/G11",
+    "sha256": "c2a760d2926db4fefd23b25c098dcd6311f711b355dbd1cc689fa25660c73174",
+    "bytes": 16361
+  },
+  "G14": {
+    "n": 800,
+    "m": 4694,
+    "weights": "+1",
+    "topology": "planar_skew",
+    "bks": 3064,
+    "url": "https://web.stanford.edu/~yyye/yyye/Gset/G14",
+    "sha256": "dc769b978a40d458f693d5bd2cf8b8cceabd430b8e976204746696179c3d5945",
+    "bytes": 43043
+  },
+  "G22": {
+    "n": 2000,
+    "m": 19990,
+    "weights": "+1",
+    "topology": "random_er",
+    "bks": 13359,
+    "url": "https://web.stanford.edu/~yyye/yyye/Gset/G22",
+    "sha256": "9baeee06eb147b1c9ca42b43be86592d4e6fc60784a85af9be5b63d1362ef28e",
+    "bytes": 217828
+  },
+  "G55": {
+    "n": 5000,
+    "m": 12498,
+    "weights": "+1",
+    "topology": "sparse_random",
+    "bks": 10299,
+    "url": "https://web.stanford.edu/~yyye/yyye/Gset/G55",
+    "sha256": "7537bbb613a6e6d0fe784937be68099eeb36227d85bb273299f22cb7d3ff2227",
+    "bytes": 144437
+  },
+  "G67": {
+    "n": 10000,
+    "m": 20000,
+    "weights": "+/-1",
+    "topology": "toroidal_grid_spinglass",
+    "bks": 6950,
+    "url": "https://web.stanford.edu/~yyye/yyye/Gset/G67",
+    "sha256": "2a8bd22b13b13e43ccc2c1fd936397e5c1680b60bf6086b794dd9bf487fc82d5",
+    "bytes": 245660
+  },
+  "G70": {
+    "n": 10000,
+    "m": 9999,
+    "weights": "+1",
+    "topology": "sparse_random",
+    "bks": 9591,
+    "url": "https://web.stanford.edu/~yyye/yyye/Gset/G70",
+    "sha256": "0d965a2ff1444cc71d7740824b5b3a5e09fc1843cbf6d90691b52d5221987061",
+    "bytes": 117744
+  },
+  "G77": {
+    "n": 14000,
+    "m": 28000,
+    "weights": "+/-1",
+    "topology": "toroidal_grid_spinglass",
+    "bks": 9940,
+    "sha256": "b90932aa0d671319aed088853a6054739e5879986f314b4a98a1233b71b96fb1",
+    "bytes": 361485
+  },
+  "G81": {
+    "n": 20000,
+    "m": 40000,
+    "weights": "+/-1",
+    "topology": "toroidal_grid_spinglass",
+    "bks": 14060,
+    "sha256": "74e69d2f5228774cedbdb86da14debf08023556f1d7693b7346ca13df7594d5a",
+    "bytes": 535572
+  }
+}
