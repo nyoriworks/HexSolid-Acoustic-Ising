@@ -124,7 +124,8 @@ def solve_qubo(
         spins = np.where(u >= 0.0, 1.0, -1.0).T  # (B, N)
 
     def eval_orig(x_bin: np.ndarray) -> float:
-        return 0.5 * float(x_bin @ (Q_sym @ x_bin)) + float(c_vec @ x_bin) + q0
+        # A shared constant must not hide differences between candidates.
+        return 0.5 * float(x_bin @ (Q_sym @ x_bin)) + float(c_vec @ x_bin)
 
     def local_descent(s: np.ndarray) -> np.ndarray:
         s_curr = s.copy()
@@ -139,7 +140,7 @@ def solve_qubo(
             grad += 2.0 * s_curr[best_i] * col
         return s_curr
 
-    best_obj = 1e30 if sign > 0 else -1e30
+    best_obj = np.inf if sign > 0 else -np.inf
     best_x = None
 
     for b in range(B):
@@ -161,7 +162,7 @@ def solve_qubo(
     elapsed = time.perf_counter() - t0
     return {
         "x": best_x.astype(np.int8),
-        "objective": float(best_obj),
+        "objective": float(best_obj + q0),
         "seconds": float(elapsed),
         "batch_size": B,
         "n_vars": n,
