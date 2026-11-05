@@ -12,6 +12,14 @@ HexSolid は、デジタル SIMD 並列シミュレーションと物理音響�
 
 ---
 
+## Application: HexSolid Studio
+
+[HexSolid Studio](https://github.com/nyoriworks/HexSolid-Studio) は、本エンジンを活用したポートフォリオ最適化・指数追従のWebアプリケーションです。最大3つのベンチマークを指定し、候補銘柄から追従誤差を抑える組み合わせを探索できます。デジタル専用モードを標準とし、仮想音響・実音モードも選択できます。
+
+[HexSolid Studio](https://github.com/nyoriworks/HexSolid-Studio) provides a web interface for portfolio optimization and index tracking using the HexSolid engine. It searches candidate assets for portfolios that track up to three benchmarks. Digital-only computation is the default, with optional virtual and physical audio modes.
+
+---
+
 ## 🚀 Key Highlights
 
 1. **Beating 1-Hour Timeouts in Milliseconds (Hans Mittelmann QUBO Benchmark)**:
